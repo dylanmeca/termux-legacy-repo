@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Codename: termux
+Version: 1
+Architectures: arm
+Description: termux repository
+Suite: termux
+Date: Sun, 23 Jan 2022 16:00:55 UTC
+MD5Sum:
+ f4a3093f4068099facda97a295dce0b9 1295 extras/binary-arm/Packages
+ dc0a4e07c407dd48ec8df730dda6f9a0 768 extras/binary-arm/Packages.xz
+ 747caa3567107e522e33bfd5e7ecb0b3 11694 extras/Contents-arm
+ 68a74fe00f610f4362ed898f5fe888b9 996 extras/Contents-arm.xz
+SHA1:
+ 79e2197f8f705ee81df448b545a81cf44715ebf7 1295 extras/binary-arm/Packages
+ 04016f5edfe51e6dd416164f14cb7e49d965680b 768 extras/binary-arm/Packages.xz
+ 110507cc42f4f0d8f4f4a2a08e59ac6004c37071 11694 extras/Contents-arm
+ 3c62a2b90bf483164300672f3abc7720570c2552 996 extras/Contents-arm.xz
+SHA256:
+ 2ae3517fe8a9922f82cf08bb16003ba83460bf2aa518228b8fcd31d9f60e7581 1295 extras/binary-arm/Packages
+ e682e086d20e822f6b3708b3dfbd14083251bf97355db28d497d81a54724725e 768 extras/binary-arm/Packages.xz
+ 01c06ec5825f8180034add5e6d2a3ff78b2ab730d5b020f7924580089a5d23ba 11694 extras/Contents-arm
+ c564fdb79bb852a3b711ea22517b4e8edfda86ac4d5f9cded055c62ad6e33eff 996 extras/Contents-arm.xz
+SHA512:
+ b302c86b8242887f555d19c7cf2cfd628da3b608823fa0bcd1be3c5ed198ab9c9d9f26fc8bf3516089117753c9debf1120656f318f709311768e8111d6804595 1295 extras/binary-arm/Packages
+ daced703542786a325ffd5d6bb551102fb922942317e4543585c93edd4cbe9eea7a70c21550979655bbf80ae673c8bafc7b584a3dcbcf5d4914173966e48eab4 768 extras/binary-arm/Packages.xz
+ 4c921e7c9f5061577ec5179bf8da2cb274e45bab22a5112a624f3f7925423f765f9d4db433940d12d221cb41e5700642802ffbaef970cbfe0aca63206b0738ca 11694 extras/Contents-arm
+ eae286254995efe93a8201672aab2d2be6cb9a1ae21eee0a111c9ceb0c8115203fff0836aa05f0c66d2499da202168ec98ae6a12271c509144eea75a8fadd3d1 996 extras/Contents-arm.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEECSpJsY2bABmapy/g5Af3XjoI20AFAmHte7gACgkQ5Af3XjoI
+20AZMAf+OL8BLVuC/tD4tr7QpsBoawUYGWj+kdHrCwyqIhn1Q2OsiUYAbHtauDVi
+J1sm86YNRcH4MFiY7X7lBtdRh7ja/0I2qRW96dE/8UmjWbU03ddwZNYxlr4diJRh
+wJmc/PsTvmTSWJfPgVBM+ZeFV/MwS7Db/I07dY7EQcki5tDJwMaXbZ7k7mQ/4t7f
+Qkm2EsGlKlfRGNn/K6PBVNy9HxrYlG2Z5YwxM9qG2XJVbVVHZRqFlfdhnHLCsxsj
+TCE+Jm8nepYsWmrF4L+Y9npFGj2c00YUmIvTNtK3TQEQ1M8Du8CPHtrFlCEqyiyh
+DkWpj137XLuGcB5vYM/qR0INZ7LNRg==
+=g451
+-----END PGP SIGNATURE-----
