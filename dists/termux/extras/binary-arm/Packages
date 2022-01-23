@@ -1,0 +1,32 @@
+Package: libhdf5-static
+Architecture: arm
+Installed-Size: 6532
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libhdf5 (= 1.10.5-2)
+Description: Static libraries for libhdf5
+Filename: dists/termux/extras/binary-arm/libhdf5-static_1.10.5-2_arm.deb
+Size: 1450676
+MD5Sum: 5e351ecae4d78b55b7d7266b63b17363
+SHA1: c0bb52f523a27d9131dcb9d82a700df18a20522d
+SHA256: 2b172fe36f5cf40d3a2f182a4bb507a9d7ac8ca995ce10b531e9661cbe55ac5c
+SHA512: fae84c73fabe589d940c5403e6e81661bba09412e429bd88060d3b2d35be5f2bd6c40df3cae5d0da2c8ac9d5074ecc2c3c1cbbb1b2474fe624ebf73c7b1a5e81
+
+Package: libhdf5
+Architecture: arm
+Installed-Size: 50176
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Breaks: libhdf5-dev
+Depends: libc++, libzopfli
+Replaces: libhdf5-dev
+Description: Hierarchical Data Format 5 (HDF5)
+Filename: dists/termux/extras/binary-arm/libhdf5_1.10.5-2_arm.deb
+Size: 5880394
+MD5Sum: f0102637c87be9fd8c164bdf261a8d11
+SHA1: 603612c8c12e1b1e98f9a8a51f063b5c8fdc85dd
+SHA256: 62bdaeecab888d83725955f514965c7fe7e9ceb21cb6097db411b84ab661cf02
+SHA512: c83e87a07e034a1e0bb1f1462881d90f17463554ee6d10f886a9db9ccb11de8a131617d6f303189fae36f00140ebd3d02b89be2cdc789e949e9f32ae5833bb74
+
