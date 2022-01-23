@@ -1,4 +1,5 @@
 title: Termux Legacy Repo
 description: Apt repository for termux legacy. It is not official of Termux.
 theme: jekyll-theme-cayman
+google_analytics: UA-210931278-2
 show_downloads: false
