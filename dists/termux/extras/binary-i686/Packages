@@ -58,6 +58,21 @@ SHA1: da8aecbbe1bf13dd3044582ad935a82451765eb5
 SHA256: c9b538f634f8635f4a33b99d51512f617d94f36536849d4f38a99cd70ea4efb8
 SHA512: 9fb0e274213c6d8daca11aaa742b901ce1987d90771970df65afcb965f464624f9c0ca5542b3044d1ca51e8a48f0b1cee8bb8a465384e3a28f23a24ff1489491
 
+Package: cgal
+Architecture: i686
+Installed-Size: 44076
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.14.1-1
+Homepage: https://www.cgal.org/
+Depends: boost, libc++, libgmp, libmpfr, zlib
+Description: Computational Geometry Algorithms Library
+Filename: dists/termux/extras/binary-i686/cgal_4.14.1-1_i686.deb
+Size: 4701734
+MD5Sum: 29dfc67724895eaf44554ffffcc176f7
+SHA1: ac5e5c9c1dc48c0d2c153771635f44554ee48c93
+SHA256: 2d892eecc3cbb8d59e5e2b74d79483b7b41c6e5db58cb7521b00b68098927fc0
+SHA512: 04b14e63248aa9bc0b624edd3ff08ccd1c66b82cb42b4eaf1888ab2d61460a1fcfce36306bab3949515a0bd6ee7e34b0085705bff8e91c5bae17c55cf749903d
+
 Package: curseofwar
 Architecture: i686
 Installed-Size: 96
@@ -72,6 +87,36 @@ MD5Sum: 9e195b183b32b7b58dea8b3d7c68afd1
 SHA1: 23643f32c72dd37edd1b1b232c328a3ed9ec3686
 SHA256: 13256f478d090ba2a7a0df53d123f30ad6fe436fe77a6e02abfba8a2f00a3444
 SHA512: 19e4ed90c3165df1e93c97f7f0087d35792d85da30ebf18d20d82241b079d53ac2213245e0c0cc22ed421f81d66b7bd9784e6fa68a54ad3ba81ea825cb7e171f
+
+Package: double-conversion
+Architecture: i686
+Installed-Size: 232
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.5
+Homepage: https://github.com/google/double-conversion
+Description: Binary-decimal and decimal-binary routines for IEEE doubles
+Filename: dists/termux/extras/binary-i686/double-conversion_3.1.5_i686.deb
+Size: 51342
+MD5Sum: 8b14717061bd681fc2504ca98dc746e1
+SHA1: d02021ae3bdf6aa377086d27614b3dc73f15bcfc
+SHA256: 76eb66eafd4d518d035faa6cc2977ac71c39eb78e9bbc220de70a499ed9ccd38
+SHA512: 98ac5002cdc5222a0a845c41f9adc613210ec7c9e1a719f22aac4cbff85c3fe5b01dde451c3aa8615302c84e7295d9fd96c39734dbfa08c55238e5d98970c9cd
+
+Package: eigen
+Architecture: i686
+Installed-Size: 7980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.7-2
+Homepage: http://eigen.tuxfamily.org
+Breaks: eigen-dev
+Replaces: eigen-dev
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
+Filename: dists/termux/extras/binary-i686/eigen_3.3.7-2_i686.deb
+Size: 797530
+MD5Sum: 21b70f93d2ff1428fdd4780b26d83d3c
+SHA1: 54c8fd29b7533d2986ed53ad94686b5849de9530
+SHA256: 985ddd8de55aba1c62388dd332f3ee5c3dad2f1a9d8d00ad56cbb8432345e4e9
+SHA512: 5f7411595a7c16a46d535e0de77978f8d4f8f3fce6dad1233f2327ab143dcc1ec5ce3e4dfba3b2e79a0f755c1da96c9a0e731b69be50aec69e2f745e629f7126
 
 Package: frotz
 Architecture: i686
@@ -88,6 +133,70 @@ SHA1: 906ff6544d17d24ccc60aea29128bcbf14c18ee9
 SHA256: e402c2546ce3eb2f5adc708618d27d2a70ca7ff2f144069bda7622fca3c11dd8
 SHA512: d7180f1e352b8f54df6da521229784753070a113ebecd6ff1fc37813b369cae131a2e6f91712360b4e75d72d7bc315b09e91786e767bcff432a5c6fe6403193d
 
+Package: gap-static
+Architecture: i686
+Installed-Size: 1988
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Depends: gap (= 4.10.2-1)
+Description: Static libraries for gap
+Filename: dists/termux/extras/binary-i686/gap-static_4.10.2-1_i686.deb
+Size: 519300
+MD5Sum: dc396c2ba3436beef79fd6198221915b
+SHA1: 138906cb898160faf5acb30c8508b070c50e7af3
+SHA256: 4dbb45020af5bd906c6a3a4be296907c42ddf3c410ad2a08b64a23e8e6a2a63a
+SHA512: 91eb1871b3591a994a98c01260efc7f14729dfe54b705355485d8618c48d3d606bec3bb468d3fefda84afbaeea34011a8332357ac4d19cdc4351a6158842dd0f
+
+Package: gap
+Architecture: i686
+Installed-Size: 3752
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Breaks: gap-dev
+Depends: readline, libgmp, zlib
+Replaces: gap-dev
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+Filename: dists/termux/extras/binary-i686/gap_4.10.2-1_i686.deb
+Size: 700600
+MD5Sum: 99356fe9fdd56168e3230ad2131a07c6
+SHA1: bc061418662bd75ea17b58a31f368dcc48cdc4c2
+SHA256: f3a3c70650a8795fa360d244b9009a17559ecce30c1128b4709cba6acc24eb4f
+SHA512: beb31ff5527c7f3e4f5039c712791cebe8e03628616f2e9016d9179ed00cff7dafc29d153206efd5fa922d382a2c679bcd05df145a9d86ec166fac07c3046b4f
+
+Package: gdal-static
+Architecture: i686
+Installed-Size: 35768
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Depends: gdal (= 3.0.1-1)
+Description: Static libraries for gdal
+Filename: dists/termux/extras/binary-i686/gdal-static_3.0.1-1_i686.deb
+Size: 6585998
+MD5Sum: a3bd2471f517f3cd1a9676bcfea39d75
+SHA1: 7ad64f56a8242c4082ef190f368676bd5238d764
+SHA256: ebd414b44b337991ba01b3802250e278e7308768864517c9934430f927080973
+SHA512: 4a1c4eb1b222385039550aa29a96d021f1d3d9cb23f82844064270cca7d5aee5c98e0251cde8f2328244a86513c1d9bbd542fb74530d523ae7f9ebc24c2b05a0
+
+Package: gdal
+Architecture: i686
+Installed-Size: 19792
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Breaks: gdal-dev
+Depends: libc++, openjpeg, libcurl, libtiff, libpng, proj, libiconv, libsqlite, libgeos
+Replaces: gdal-dev
+Description: A translator library for raster and vector geospatial data formats
+Filename: dists/termux/extras/binary-i686/gdal_3.0.1-1_i686.deb
+Size: 5230374
+MD5Sum: 3118194e93ab9cece0726c45971527c5
+SHA1: 3160026b6aa3e9a2a9d6fc23a1c73e9e5f88a495
+SHA256: 9eb87e28e747beff7e230b0a1bcf9d1c5070f8d252f4c8c1894ba49b80699965
+SHA512: f3143dee024d0eebd68d6aa46c3def80bd76fa455be73c208b9d456510138db3aafcb8b169fe9ee2bccfcd4ae09f5183395aa668938dca27c75912bf21df2b26
+
 Package: glulxe
 Architecture: i686
 Installed-Size: 300
@@ -102,6 +211,23 @@ MD5Sum: 1129c46cbf09d9a105d27414974efc6b
 SHA1: 8effbec7321518d6ffd52c5585ed6478d33af5d7
 SHA256: df43f1fd3d1e5be78be545e05a4da74dd708b62bd6e24d5893a30e4afbf49bd3
 SHA512: 0618804d2625dffd5ebb1b44c7ef4f3d9ffca9f55f1e78150f2bf936a787af13920be59e2ed47743d6a2c999865cef0a7f9bd570a09f7a74638eca5ea9d3df9e
+
+Package: gnucap
+Architecture: i686
+Installed-Size: 2880
+Maintainer: Henrik Grimler @Grimler91
+Version: 20171003-4
+Homepage: https://www.gnu.org/software/gnucap/gnucap.html
+Breaks: gnucap-dev
+Depends: libc++, readline
+Replaces: gnucap-dev
+Description: The Gnu Circuit Analysis Package
+Filename: dists/termux/extras/binary-i686/gnucap_20171003-4_i686.deb
+Size: 630168
+MD5Sum: 5c1792fe5698adae05fe463c4541efce
+SHA1: f8bca8f5e5d7e83cc1123ba7c362594e3ff1eae9
+SHA256: 7f167205610ed0b12863bab66f99fa7773036be73f730362e9e0edbbfa93c277
+SHA512: a2da374e87b12448935467693c4fb8f45ba4d619fff1bd01ed0e403d7cac185f885ed94c13ddb58320c47f3e0b5c02e6825c2daad0c8129c52ab2c3f1b29f72e
 
 Package: gnugo
 Architecture: i686
@@ -148,6 +274,87 @@ SHA1: 136486e3aca15cbdc62e82e73d587c3f98e92814
 SHA256: 644ff835c260861ded054e82f83b70e3618268ee18cc5df2b2e73a52834d1314
 SHA512: 384b998288d5363a2995e090b9ba0d94dac21140dad2fbbf73da38618c007cf110be4192cd719d5a376a9ec6d5da6fafde47bb313f40b77070ed2653390b3796
 
+Package: libgeos-static
+Architecture: i686
+Installed-Size: 5028
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Depends: libgeos (= 3.7.2-3)
+Description: Static libraries for libgeos
+Filename: dists/termux/extras/binary-i686/libgeos-static_3.7.2-3_i686.deb
+Size: 636190
+MD5Sum: 4a5f1ec1810052a23281c7e32016b7f5
+SHA1: fae80da157867db25ebb16b3fa29c5b469c198ad
+SHA256: 5499d75db7d403856297ac058f9dec80f60c9d960cf4cbc3f15013f9bf5b295d
+SHA512: ee12d39e8db1d6c28b12c06459e200c3d0a73517a2850a9faf1efa5232b447f5328807c14e85cad708322e2937affccaa0602408ee963f8452dff5177b426068
+
+Package: libgeos
+Architecture: i686
+Installed-Size: 3996
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Breaks: libgeos-dev
+Depends: libc++
+Replaces: libgeos-dev
+Description: Geometry Engine, C++ port of the Java Topology Suite
+Filename: dists/termux/extras/binary-i686/libgeos_3.7.2-3_i686.deb
+Size: 625518
+MD5Sum: 22603547020dd1524280bf51348488ea
+SHA1: 81300e642fae89dc26682ac00d2453f5f4db2e26
+SHA256: c01e85bf8e77b5c80a599583e038682968ae5585ce1297a8978a09b6a144f1be
+SHA512: 842879dc78496b41a315605016c32217e017979ef0e70134b280911cab0c3774117517bd4fd40f0892058e9aac9c10b1e93fdc6c625b73352cfe1bd4f2e75aa5
+
+Package: libhdf5-static
+Architecture: i686
+Installed-Size: 6512
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Depends: libhdf5 (= 1.10.5-2)
+Description: Static libraries for libhdf5
+Filename: dists/termux/extras/binary-i686/libhdf5-static_1.10.5-2_i686.deb
+Size: 1346048
+MD5Sum: 57b046233954fab4f55157d2f146e001
+SHA1: 08f71d58d517e47e1e6e3bdaed99de004908a5fe
+SHA256: 14c7df333cd5279084ada05bba04c08b57a809a093dc03ea5cb692cf4157f5c0
+SHA512: eaf8691d47b8b1ec270b2679ea41d5b8b099549734b524dfc0101b8c2f97de9470d3d99e1615dbd060f31735ed9475d5ce7b935a491d4c180f2569ddb573a667
+
+Package: libhdf5
+Architecture: i686
+Installed-Size: 54836
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.10.5-2
+Homepage: https://portal.hdfgroup.org/display/support
+Breaks: libhdf5-dev
+Depends: libc++, libzopfli
+Replaces: libhdf5-dev
+Description: Hierarchical Data Format 5 (HDF5)
+Filename: dists/termux/extras/binary-i686/libhdf5_1.10.5-2_i686.deb
+Size: 4385094
+MD5Sum: b24e2c2129e950fb3be3f51b52735293
+SHA1: e3f9b292ce1ddf8a6a828b933a0b8c2674ac4c74
+SHA256: 4d5bd3e0aa51cf93cd3eb67637ff5ca246ff2d0e692dbf2c241b9bbe9cd8c14a
+SHA512: fd04b670b6b5a7d43eeb89580168c88ff0bae533fb54d88aeca7db7b38b653ae8f186513d15a6a9c0af69b6165778085ed86578d0b2101dd7f6f6043f5a77f03
+
+Package: mapserver
+Architecture: i686
+Installed-Size: 6696
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 7.4.1-1
+Homepage: https://mapserver.org/
+Breaks: mapserver-dev
+Depends: libc++, libiconv, freetype, libcurl, libcairo, libxml2, openjpeg, proj, gdal, libprotobuf-c
+Replaces: mapserver-dev
+Description: MapServer is CGI-based platform for publishing spatial data and interactive mapping applications to the web.
+Filename: dists/termux/extras/binary-i686/mapserver_7.4.1-1_i686.deb
+Size: 1276654
+MD5Sum: 9d5ce8bd6d494b242cd01117cb5677c9
+SHA1: 56f5668948d0f91702fc10cd28d40a4d6eb22afc
+SHA256: 5501e7d1a7c471583e530aece8d4afd48498b227dd1ef3bc75b197387f5a62de
+SHA512: 06a3255589c06a678c748045235a1fef6925fbf058303cddc7cd4d13d670eff924fcceee9c87acdc8285becc8dfbde1ec84a1a07baa844b384dac9edca0a3bbe
+
 Package: moon-buggy
 Architecture: i686
 Installed-Size: 120
@@ -177,6 +384,38 @@ MD5Sum: 482793873b7e3aaaeefab313fda3e7fc
 SHA1: ae4a65da9db0d09cb7bd110f5e78bc183b704b45
 SHA256: 605d5fde24b712aa058dd6d7a27cda0bfe6e9ce59661c4c642b37840f2df5fc8
 SHA512: cda8066defd5b8dbb139a603e04e58373ae3c2a5e08438d186dc617cc21f72563d5ad2a50a793b6a8d1ac66e349502a74f05e0bd91a4ee68714be7d29a223458
+
+Package: netcdf-c-static
+Architecture: i686
+Installed-Size: 1516
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Depends: netcdf-c (= 4.7.1-1)
+Description: Static libraries for netcdf-c
+Filename: dists/termux/extras/binary-i686/netcdf-c-static_4.7.1-1_i686.deb
+Size: 339702
+MD5Sum: bd16e1dd583ba99cfa0ba9de43568216
+SHA1: 093b68732bd0e5b31f4d4226a5c4a7406a9dd2c3
+SHA256: eda6e325315cbfa6bfa93d09a690025f6f650c138909045a52120705c0388c31
+SHA512: c98819d9a0b884bc298293638d69d2d2a341e3719eb5fd9cd59159ea393dc77509186f48d2c7f08e14a20ed95f3411590448b6543e6c10fbfe1d6be259a14409
+
+Package: netcdf-c
+Architecture: i686
+Installed-Size: 1684
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Breaks: netcdf-c-dev
+Depends: libhdf5, libcurl, openssl, libnghttp2
+Replaces: netcdf-c-dev
+Description: NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+Filename: dists/termux/extras/binary-i686/netcdf-c_4.7.1-1_i686.deb
+Size: 495282
+MD5Sum: 3bb9ed3c66124433681b47d7183bae4a
+SHA1: 14f12c460f12bb651532ba31c7ec076ca3498f80
+SHA256: 91e5f5ae91970ac2b06ed160bf46c261011526c5476e4df2e36986b9b4ea2abf
+SHA512: 4c852d97eef40ef2368826a2b0dfc680b17a04c178488599713c2c82262996c5ad836d2a2e5f702d86caa91fb2a124850ad539f588bcde15c5096a794eeded54
 
 Package: nethack
 Architecture: i686
@@ -253,6 +492,85 @@ SHA1: ece1551f63138343d2957b553b157ddfbe4a2af2
 SHA256: d839213f25261dbf1eafe5ca37f75c592677e7eb9899c416cf850da42f97c43c
 SHA512: 5d34793275ee0a74f675ac89cb24032fe951a3d0d87a2c97c513720d11b09b54cc995faf83f8b8c5e1df77dd8c85ceab3dc9042c9f6f51b157ee9402cf1da243
 
+Package: openbabel
+Architecture: i686
+Installed-Size: 18616
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: http://openbabel.org/wiki/Main_Page
+Breaks: openbabel-dev
+Depends: libc++, libcairo, libxml2, eigen, boost
+Replaces: openbabel-dev
+Description: Open Babel is a chemical toolbox designed to speak the many languages of chemical data
+Filename: dists/termux/extras/binary-i686/openbabel_3.0.0_i686.deb
+Size: 3745784
+MD5Sum: 38e3f844466442f48b05269caa837548
+SHA1: 363731f2da35b8cbea457f964ecb193476ec4d6e
+SHA256: d08c99b9e0cb64f4bef548bfdb39a78c7cc9521363ec98568a4ee728759aea29
+SHA512: 201b6aaaa9ce9842adb5b93180ae00fde85784d6b71829fd9f30fe433960cce6c1fb1599e5204e6c9b39b0037dfaf7e37f4a7ef0b3fb7c2e081819a64a6fb9ab
+
+Package: openmpi-static
+Architecture: i686
+Installed-Size: 8268
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Depends: openmpi (= 4.0.2-1)
+Description: Static libraries for openmpi
+Filename: dists/termux/extras/binary-i686/openmpi-static_4.0.2-1_i686.deb
+Size: 1761930
+MD5Sum: ec2fda26b51396af92c5b165373827ca
+SHA1: 3b4f683cbf79aac660484cfc7141d99d7a11868c
+SHA256: 5abdf39be0ee341c8cf3e46e42e516b438accedcbc2757bd04fc50393cd48a59
+SHA512: 123821ab1bfa159f9089965938a076113291eaefdcab381cc93bc4c4d2d70dcb16b1e755743e57174337682bbdecbda69dcd9acf41251b908fe9745d3a44024f
+
+Package: openmpi
+Architecture: i686
+Installed-Size: 6992
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Breaks: openmpi-dev
+Depends: libandroid-shmem
+Replaces: openmpi-dev
+Description: The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners
+Filename: dists/termux/extras/binary-i686/openmpi_4.0.2-1_i686.deb
+Size: 1981646
+MD5Sum: d521e2f30a98202610c94deb16730621
+SHA1: 3dbc7c9f16e44a2521785913eea9499eef3de984
+SHA256: 208a293c64eaaac62d6ba7f6869c121378ec807e8bddb55a303b40f5cd7896f0
+SHA512: bbcc03b0055a11487f45fd3ee2db45cf07b0bebb489d17da3bc47131460836d6c2849f49be327c5a3d98bea75ed78925752059b3149b6b971b3691baf351a54c
+
+Package: openscad
+Architecture: i686
+Installed-Size: 5636
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.05-1
+Homepage: http://openscad.org/
+Depends: boost, cgal, double-conversion, fontconfig, harfbuzz, libzip
+Description: The programmers solid 3D CAD modeller (headless build)
+Filename: dists/termux/extras/binary-i686/openscad_2019.05-1_i686.deb
+Size: 1225848
+MD5Sum: 7663fcf4530be3af8d7ee3730883f4f9
+SHA1: ff7bbd60e27a1def7deaf6bba81389224c2209bb
+SHA256: d862e2dfbf46116b747244d53213a9c0e611bb99d8178297d025f72687686b3b
+SHA512: f1fa3d2fb2431d2a2f78c92716d167318fd5968392b44838026cc854150a8563a82e4eedbaa0de18961bdd6c0335ad4042627cbce5aac7300cb63ecb2cdde217
+
+Package: osmctools
+Architecture: i686
+Installed-Size: 300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9-1
+Homepage: https://gitlab.com/osm-c-tools/osmctools
+Depends: zlib
+Description: Simple tools for OpenStreetMap processing
+Filename: dists/termux/extras/binary-i686/osmctools_0.9-1_i686.deb
+Size: 87942
+MD5Sum: d50a87c4d0b15d395d7d9ad2731090b9
+SHA1: 5de405a9fe5e1922e2467909b241af1abd2073be
+SHA256: 7586ba1882eaf051eeb8e88ea989b58390589257e4999d7851ffdcf1752613b2
+SHA512: 599697011a03f0b9ce44cadb4d6c5d8ef65f1ccb3b7ac82e0cccee767d98378cfad886ce461f06e5f60bb219bc0930073a6b73660380ed4e265d2af32c05e1ee
+
 Package: pacman4console
 Architecture: i686
 Installed-Size: 140
@@ -267,6 +585,23 @@ MD5Sum: f4de2cbe0f822311307eb67ba7907142
 SHA1: 195bebd2a0770c669600d6f5e4410ec195df7e0c
 SHA256: 5ce78a47a3d521bd6589058f17baf330790d6bc64c7b59f439fb6c2c381a9246
 SHA512: c079367fbf566ee4e2dac6904c9306092715dd73aeb89bd48cf32134b5fd993a42303b11ad44ccd029d532a462df496532a2a0502942babb7b6e134647fda658
+
+Package: proj
+Architecture: i686
+Installed-Size: 8680
+Maintainer: Henrik Grimler @Grimler91
+Version: 6.2.0-1
+Homepage: https://proj.org
+Breaks: proj-dev
+Depends: libc++, libsqlite, sqlite
+Replaces: proj-dev
+Description: Generic coordinate transformation software
+Filename: dists/termux/extras/binary-i686/proj_6.2.0-1_i686.deb
+Size: 1549478
+MD5Sum: 7d8168819482d54f84b7517ae0768932
+SHA1: a199ec2c97c616929aae2cc0dfe0bfc3dacc4db2
+SHA256: 694161866626b93d44bce182d18464b3da80cba8b30c6b7e75b133903af3eba9
+SHA512: d4c0c02752a785160fd12ecbc2b3c408e54bbce59a0a0e767c85c69a53e9ab1d508040b9e8923a881e3440b977613a67f3370e5d09c4e087598c3c3a92ae4e0a
 
 Package: tty-solitaire
 Architecture: i686

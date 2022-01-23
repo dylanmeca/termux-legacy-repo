@@ -73,6 +73,21 @@ SHA1: c786a698f0d8ed5319350c2d922d8250daea37a1
 SHA256: dd74bcf6b32e73e88475b89b873d973032fc376ae09aea8fce10cf7aff3c5da1
 SHA512: efa3aba2bb8381c9afaf1022c82ebc43896ffbe3937ae6c7f3c2d0c00e426ecff10dedb18620e4f912ada8658400f81a621d831b23ac56ea99faf8f5d4bb2904
 
+Package: cgal
+Architecture: arm
+Installed-Size: 43896
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.14.1-1
+Homepage: https://www.cgal.org/
+Depends: boost, libc++, libgmp, libmpfr, zlib
+Description: Computational Geometry Algorithms Library
+Filename: dists/termux/extras/binary-arm/cgal_4.14.1-1_arm.deb
+Size: 4683004
+MD5Sum: fe507155e86f5d19a6f9d84e1f6845c0
+SHA1: d0b6499ad12445c42429035983e458019813e3c6
+SHA256: a0af6f437d4e7a61c97d248d44bdc408b137581aeb0e6776f3cfc8fd310cc5b6
+SHA512: 6e06e4e375711941d0e4c38c37beaea38c11842bc00b36f1cf43cc0f572478d72383f5d44b5fd0873a9bda6d15e248d512a50a061365c247b1b31ea6ea6918d0
+
 Package: curseofwar
 Architecture: arm
 Installed-Size: 88
@@ -103,6 +118,36 @@ SHA1: 010ce12c465d21288f32efd951e1492b3d9c5d30
 SHA256: 3a437a96a006ac8332986813f319ceb27a9a880c0e256dd0dac7594f510e04e5
 SHA512: fd5a1fb052fe696eed697d338b79058ff34300fb9ec04a2f0fab6d9b9dcbd9b6444f579e628bc1e336126468e51510d516603bd6361d4b47392f549bb947bf0b
 
+Package: double-conversion
+Architecture: arm
+Installed-Size: 212
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.1.5
+Homepage: https://github.com/google/double-conversion
+Description: Binary-decimal and decimal-binary routines for IEEE doubles
+Filename: dists/termux/extras/binary-arm/double-conversion_3.1.5_arm.deb
+Size: 44476
+MD5Sum: 1ffb4800f4a93c7c417d9a7c1a8b6dad
+SHA1: f4bfb4ecd1a686318c7d65692ebfc8aa0b4427a9
+SHA256: e1b4bacf7ab3dbccff4f9c2234a5219bfea9c5bd1cd84e0859fb22b6be1e3d9b
+SHA512: b56da740190e5e421c0a1df884e56437a206ab8f75ed9613e9ced0081f0c24a44f69c6f16d1caa307d30e351ee11664c7047ace6f5a7e7db7a815f8b051f5afb
+
+Package: eigen
+Architecture: arm
+Installed-Size: 7980
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3.7-2
+Homepage: http://eigen.tuxfamily.org
+Breaks: eigen-dev
+Replaces: eigen-dev
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
+Filename: dists/termux/extras/binary-arm/eigen_3.3.7-2_arm.deb
+Size: 797442
+MD5Sum: cacfc489c63e56192ebf95bdd2db6500
+SHA1: cb0c35116eafe7aee9b64429ddcc63144899eacd
+SHA256: bee2c799fd7284d61c395ce3799e6e15ff07fab0e8db29a477b3960958432be1
+SHA512: e426eea687c24b4dfdcbca5454733989892ef5c86544b8afa396670adaca7c87ec1b2196791f489b85e472aa7ac3f6e2ac66ee7946cc5257c833f4ddd972ee25
+
 Package: frotz
 Architecture: arm
 Installed-Size: 132
@@ -118,6 +163,70 @@ SHA1: ac8141341ee28b8148eb3fb13eaa654d9c2fa35a
 SHA256: faa93f60de962b681b55498dd7dc68cad3b871ae1d3030b840b80141935e333d
 SHA512: de9d7dcc239318771ea0e8f1f5c3e74a03fbb2560f2facfff2cbfc3e24d4390f82ee1bf68a6eef9ea11b819ebe1cb4dabbfa5b1f793dd0ef132af5ff1cfc7b68
 
+Package: gap-static
+Architecture: arm
+Installed-Size: 1916
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Depends: gap (= 4.10.2-1)
+Description: Static libraries for gap
+Filename: dists/termux/extras/binary-arm/gap-static_4.10.2-1_arm.deb
+Size: 545034
+MD5Sum: dabdfb09b51b807dbb905c2d2a86dee2
+SHA1: 57dabfbadf0c9ca23da0b1d2bb33b88fed61ccb1
+SHA256: 2b9f20871f307086d374001109d58d16b85be4267b91077edcda1120ec6794c0
+SHA512: f34a578cffd2229729977c99e61b015418d415710440d76703f66d823cd826141e6a27617557612e8d2d3539092e9e546689d505ad919ef9ba356a63f7305153
+
+Package: gap
+Architecture: arm
+Installed-Size: 3300
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.10.2-1
+Homepage: https://www.gap-system.org/
+Breaks: gap-dev
+Depends: readline, libgmp, zlib
+Replaces: gap-dev
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+Filename: dists/termux/extras/binary-arm/gap_4.10.2-1_arm.deb
+Size: 654672
+MD5Sum: b585ee6bd3f6e198fa7b65cc00c9c38d
+SHA1: a8b4876cea6fe2c5c4c711c977e8e9a4e57b57fd
+SHA256: cdd3313fd2d39021f6688fbb3034ef8fcc6ad1364e4c78e2d6d362b483030b32
+SHA512: 5e8284d4715ec2fb35d8fbad638ebfb0f2ca02b37f2ee9e788e0c39344808e5a62b939afa621acad0a5f4586894e46ce94c9507aebed1ac1e7a9836c476b8b83
+
+Package: gdal-static
+Architecture: arm
+Installed-Size: 39640
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Depends: gdal (= 3.0.1-1)
+Description: Static libraries for gdal
+Filename: dists/termux/extras/binary-arm/gdal-static_3.0.1-1_arm.deb
+Size: 7078124
+MD5Sum: c5a0db8ea3f9fe3bf779d003365ea860
+SHA1: 7b5740b8ab679c6614afcc7bd203b4fe36fb7867
+SHA256: 2866f0d636bf61eafdf23346b62f7566d3206c213629270562c174dfd3d19115
+SHA512: 3411a184386b0052b0b490f6dd004570f84836083de5c58a198d56f5c85c41bbb3ba257a300bece4ca4b9826d4a0e624d782496a006519a297711ae650109dfa
+
+Package: gdal
+Architecture: arm
+Installed-Size: 15544
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 3.0.1-1
+Homepage: https://gdal.org
+Breaks: gdal-dev
+Depends: libc++, openjpeg, libcurl, libtiff, libpng, proj, libiconv, libsqlite, libgeos
+Replaces: gdal-dev
+Description: A translator library for raster and vector geospatial data formats
+Filename: dists/termux/extras/binary-arm/gdal_3.0.1-1_arm.deb
+Size: 4645002
+MD5Sum: 0c86bef19c3b4673ec4447480a981628
+SHA1: 282969e0eca269f76168872772242e904497ae4e
+SHA256: 4aef78e256c03cc0f35c28fbef0422e5b6c2e83407e1c4116cb6647a7ea8d905
+SHA512: f5635a5003032f9d080c49b1aedfc96e4954fb2d29cc0c5c57b7fb989a3f114a125b3c2f48c95aa1c2f540a0ae162de518329e7fe98780e6da138097dcda7c03
+
 Package: glulxe
 Architecture: arm
 Installed-Size: 260
@@ -132,6 +241,23 @@ MD5Sum: 625d76ba42f7176e2085d88efa2e861a
 SHA1: 16db276936a16df4bc166562de28fbf1ab1ee28b
 SHA256: aab5b30283d932f74434b5df8e02872a0f5661c8ec1dd1576b0d540793dba1a1
 SHA512: 71c106ac2f6adfddf584db4e9d6d101f51472a48fb53b18318387dd59e12c258125a3b9952861a6eb34bb18e3bd99425c74e028a20d6de85fb7dfd5cf6499c60
+
+Package: gnucap
+Architecture: arm
+Installed-Size: 2064
+Maintainer: Henrik Grimler @Grimler91
+Version: 20171003-4
+Homepage: https://www.gnu.org/software/gnucap/gnucap.html
+Breaks: gnucap-dev
+Depends: libc++, readline
+Replaces: gnucap-dev
+Description: The Gnu Circuit Analysis Package
+Filename: dists/termux/extras/binary-arm/gnucap_20171003-4_arm.deb
+Size: 565040
+MD5Sum: 58d023e913961487dabd24dfc67bca6d
+SHA1: 6b74a532fc963c3425e2c73a47ed3c53328f7ca3
+SHA256: 125e4a30be58047912d51ef627d02162e23441041e9e0a9b78e26f3351ce7fb6
+SHA512: 3fae72c69dea9aa080493ce9cec21c37bb8e971bee4a00648587251616c63d46102873a18faf2bd464b3616182b4ac866476ef940b3206d55d28d768ced8ec00
 
 Package: gnugo
 Architecture: arm
@@ -178,6 +304,23 @@ SHA1: 3e455ff6d05313f9bce7ad9e805ad94037626056
 SHA256: 16ffe6951e2453a0af549ddd4f259296bd9b776428c01f7f8aee33472407da29
 SHA512: fca1e25dde2df18b24ff676fe772c3ae85d0e65bfaf52559ba7b0b550bdbbf2bfe3fce177ecbfaac4bf88d8798a7739568fa64680133f986de895f7a7ca8cf5f
 
+Package: libgeos
+Architecture: arm
+Installed-Size: 3616
+Maintainer: Henrik Grimler @Grimler91
+Version: 3.7.2-3
+Homepage: https://geos.osgeo.org/
+Breaks: libgeos-dev
+Depends: libc++
+Replaces: libgeos-dev
+Description: Geometry Engine, C++ port of the Java Topology Suite
+Filename: dists/termux/extras/binary-arm/libgeos_3.7.2-3_arm.deb
+Size: 565068
+MD5Sum: 3453142a310064a197ef967895eee8db
+SHA1: 679b8fd03ed8af9c65a7a0bb579678943510f0a2
+SHA256: 357f6d2eca188d0e382d7ab45d240b82d7678d39ce012f6e0452dcffa920a834
+SHA512: cfab5514808850e41941794361ac50fd30f2a8e9e0ad0313c75d864e9a016c146f260689ace7ab43642c7eb5e88e16a451479478d7da06c95fa320698cc45984
+
 Package: libhdf5-static
 Architecture: arm
 Installed-Size: 6532
@@ -210,6 +353,23 @@ SHA1: 603612c8c12e1b1e98f9a8a51f063b5c8fdc85dd
 SHA256: 62bdaeecab888d83725955f514965c7fe7e9ceb21cb6097db411b84ab661cf02
 SHA512: c83e87a07e034a1e0bb1f1462881d90f17463554ee6d10f886a9db9ccb11de8a131617d6f303189fae36f00140ebd3d02b89be2cdc789e949e9f32ae5833bb74
 
+Package: mapserver
+Architecture: arm
+Installed-Size: 6268
+Maintainer: Bjoern Schilberg @BjoernSchilberg
+Version: 7.4.1-1
+Homepage: https://mapserver.org/
+Breaks: mapserver-dev
+Depends: libc++, libiconv, freetype, libcurl, libcairo, libxml2, openjpeg, proj, gdal, libprotobuf-c
+Replaces: mapserver-dev
+Description: MapServer is CGI-based platform for publishing spatial data and interactive mapping applications to the web.
+Filename: dists/termux/extras/binary-arm/mapserver_7.4.1-1_arm.deb
+Size: 1231102
+MD5Sum: a22ca29bca659658ed9133b7a5ef1847
+SHA1: 318ce0623311f9910f12312547279a05145ab3a3
+SHA256: d7bbf679434ad5b6709fd7ec89d7cd1f334eee266e826941683994e9cb8aa8b6
+SHA512: dd3bb195c4b338a5cea2ff493f437127fa7d6c0befae2947d9072c348e5e728227c7c0720267104b0a3c9e7a06e045b9d99c4dc15b96e15b1f52fac0343e2dc3
+
 Package: moon-buggy
 Architecture: arm
 Installed-Size: 116
@@ -239,6 +399,38 @@ MD5Sum: 7989d5145900a817784cd854f114a730
 SHA1: 125c42b6778f82bca25469931c64338bdd48b853
 SHA256: 7e794a0f7cded2474525c46e7d99fe3c4a2fe2b5e304a3a278dd3ebde387a4e7
 SHA512: aed629e6baa1f65e22defd2015bab8c2121e0ab71d8e5abd4d66ea1e685af8e9de6f4d00625711393f07ae364a1f8a16b4ebd4c6a765b1045359b1afbea4eaf5
+
+Package: netcdf-c-static
+Architecture: arm
+Installed-Size: 1444
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Depends: netcdf-c (= 4.7.1-1)
+Description: Static libraries for netcdf-c
+Filename: dists/termux/extras/binary-arm/netcdf-c-static_4.7.1-1_arm.deb
+Size: 341200
+MD5Sum: 354c13bd7f4538b5ea4c16224b90ad04
+SHA1: a7c6d6da92c83290a612964dd09dbd3719dfdcfd
+SHA256: 649b8c972d1053f9f4caf1fb54d65c282228d7864ad09bcaedf4310f6204382d
+SHA512: de3e5255c88893522fab22126c53d93260ea7a9dbcb82e657024a99cccf248fca084f84f3b43d36cb51e8e64c73f11c81fed40aa47dd23eea6c6aa535cbd27e2
+
+Package: netcdf-c
+Architecture: arm
+Installed-Size: 1484
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.7.1-1
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Breaks: netcdf-c-dev
+Depends: libhdf5, libcurl, openssl, libnghttp2
+Replaces: netcdf-c-dev
+Description: NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+Filename: dists/termux/extras/binary-arm/netcdf-c_4.7.1-1_arm.deb
+Size: 473170
+MD5Sum: d4aab9a2cda6c4af3bc2232b6a4d668f
+SHA1: 9e5dfb3d91a23aa1f3f9a59eaf311369511e7cd2
+SHA256: c20048ae351ff2b483f3fdcbd45b256983d502676dcfcf73634eb36e5c18ce93
+SHA512: 329ce74054cbb10a4dfc993c7babf2b4573c6aa2b76f3705e66998be46fb1a610b58d7643d92877578adababaca00e870f1a1dd3032449150ce7586529c3e173
 
 Package: nethack
 Architecture: arm
@@ -315,6 +507,85 @@ SHA1: 9c6c5d628591567e39b1e6e59acf8df17dd31b0c
 SHA256: 952ba6cbd6c12f246588cd38d8677535bb14170eb4fadcdd0a5686e82cc97339
 SHA512: b56452b26b26c87da872f6b5980528592c7218f28ee3de9c07363ac60f34b5f3d5c737a2772ccf25462edfadccac35ef190ed31e8a791d877b39a5dda2335608
 
+Package: openbabel
+Architecture: arm
+Installed-Size: 17012
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.0.0
+Homepage: http://openbabel.org/wiki/Main_Page
+Breaks: openbabel-dev
+Depends: libc++, libcairo, libxml2, eigen, boost
+Replaces: openbabel-dev
+Description: Open Babel is a chemical toolbox designed to speak the many languages of chemical data
+Filename: dists/termux/extras/binary-arm/openbabel_3.0.0_arm.deb
+Size: 3518010
+MD5Sum: 16d328ed3e95cbd6bbb5974acff264bc
+SHA1: d3c444bee3eca71fdfa4c1a1e6e1bc56bfeeeef8
+SHA256: 2dd95d182298ae5c3698863ec427c368b6670cdaedb4d10677c8fab54813793c
+SHA512: 249effb1b11f0dea57b8783d9d8ee31a7093471803273d787d3464549c57bd9c9cefeffe8f275d22eff6a042b2bdd090e25ccdba24df2a7dd5dcc7a4d367166a
+
+Package: openmpi-static
+Architecture: arm
+Installed-Size: 8232
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Depends: openmpi (= 4.0.2-1)
+Description: Static libraries for openmpi
+Filename: dists/termux/extras/binary-arm/openmpi-static_4.0.2-1_arm.deb
+Size: 1873636
+MD5Sum: b99fa01c313d5bb37be2337b036648b7
+SHA1: 1f7631d3ac657d7b6a0f6ae6dc4d4d870a61de1f
+SHA256: 909b4d544e19f4869c73ca3887e23c34850c2206a9c9f9c2a06bc21959e73449
+SHA512: 256deb34328bf0a4f9d363c561356a75c42e9eb3adf4edf01a0d36101741a6a2a897418fc57a84a428bc5ce88260f92d57def1c94a689a99b863f1a5b621f271
+
+Package: openmpi
+Architecture: arm
+Installed-Size: 6264
+Maintainer: Henrik Grimler @Grimler91
+Version: 4.0.2-1
+Homepage: https://www.open-mpi.org
+Breaks: openmpi-dev
+Depends: libandroid-shmem
+Replaces: openmpi-dev
+Description: The Open MPI Project is an open source Message Passing Interface implementation that is developed and maintained by a consortium of academic, research, and industry partners
+Filename: dists/termux/extras/binary-arm/openmpi_4.0.2-1_arm.deb
+Size: 1981436
+MD5Sum: c308ddd8acfe4df21613be75b7c2e311
+SHA1: 954b03f65cfe678aeb54a57b99c07767bbe6e9bf
+SHA256: d77dcf2988169a6e7fd4ee05da6c3ad4704d1ffafc0487883d5447b07bfd57b2
+SHA512: ac96cb2a255fa69186162a2d4fccb3f3045d6b0307108190f979316b1742efd92ec4618d79e497164c24d8b09cacdd364f9eb4e4c57f900f5cd5c4ffa37634e0
+
+Package: openscad
+Architecture: arm
+Installed-Size: 4080
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2019.05-1
+Homepage: http://openscad.org/
+Depends: boost, cgal, double-conversion, fontconfig, harfbuzz, libzip
+Description: The programmers solid 3D CAD modeller (headless build)
+Filename: dists/termux/extras/binary-arm/openscad_2019.05-1_arm.deb
+Size: 1071280
+MD5Sum: ce95b1c757cf24b82711906625bf287e
+SHA1: b1714d4cd4af336a38a2c8e52d7a6f1f93464fc2
+SHA256: 851d7927627f1b3be7ab2875d1f78445be50783af802164177e23427b3251e5b
+SHA512: 91d993ffa9383755339268d780b3107cdbcb774868f15a3c576d6781de2f10bf36b2ffc66bb424b01f06c916a374c03d3c1894cda446695eedd4b5d57fa4b341
+
+Package: osmctools
+Architecture: arm
+Installed-Size: 276
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9-1
+Homepage: https://gitlab.com/osm-c-tools/osmctools
+Depends: zlib
+Description: Simple tools for OpenStreetMap processing
+Filename: dists/termux/extras/binary-arm/osmctools_0.9-1_arm.deb
+Size: 94212
+MD5Sum: 4fc8e159a6c4a08a899b9189c9747f71
+SHA1: fc7ae060b95a4fe78d4fd220539f07b2bc2702ab
+SHA256: 77da8fb6288f1222da29c06061cb077db9de86adcc3de593f9a18009a5cf8abc
+SHA512: 5173c225e11be3295c5015b2c5883597a9c596a5e88d82321fa27f14aa44c2c32a2f5040fc9c0066f67ef69fac52aa577f71b16d70a917b7c6e7c1705774bd85
+
 Package: pacman4console
 Architecture: arm
 Installed-Size: 144
@@ -329,6 +600,23 @@ MD5Sum: f54581107a3c98b5c58682128e74419e
 SHA1: ff484790e9041e5ccbabcbd51b8f3dd29756501f
 SHA256: 1b575f8e14696239e3d26137da23470a07d561ecd6f1862f699f53a2242243a6
 SHA512: ddfbc9287476ecf12caea96e11c833f931455e1b0c2e5da1e4863dc51111321a161af9f9cdb76b03059bde0b00a792a1e2ea9a6ea0f6f313801ccd9f595fa0d1
+
+Package: proj
+Architecture: arm
+Installed-Size: 8036
+Maintainer: Henrik Grimler @Grimler91
+Version: 6.2.0-1
+Homepage: https://proj.org
+Breaks: proj-dev
+Depends: libc++, libsqlite, sqlite
+Replaces: proj-dev
+Description: Generic coordinate transformation software
+Filename: dists/termux/extras/binary-arm/proj_6.2.0-1_arm.deb
+Size: 1463140
+MD5Sum: 6816c4116f06ca9363d66138ec51de9a
+SHA1: 83f93fa068cde826f2007dad1a2d47b5d5cf41ec
+SHA256: 7f4a4802d332c014961be9c4142be5e48c1c2c44700dc7467bda1f41e4e2d435
+SHA512: c3061cc10e17626f0ad31c97ef2ad44d27d33f31bcbaf45b640ddc7e2e32004551a5745126789513497e078b585745748488b2e6b96c33f6611e173a54efcf35
 
 Package: tty-solitaire
 Architecture: arm
