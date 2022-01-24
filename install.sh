@@ -9,6 +9,7 @@ echo "deb https://dylanmeca.github.io/termux-legacy-repo termux extras" > $PREFI
 wget -c --quiet --show-progress https://raw.githubusercontent.com/dylanmeca/termux-legacy-repo/main/termuxlegacy.key
 chmod +x termuxlegacy.key
 apt-key add termuxlegacy.key
+rm -rf termuxlegacy.key
 echo "[*] Updating packages..."
-pkg update -y
+pkg update -y && pkg upgrade -y
 echo "[*] Installation complete"
