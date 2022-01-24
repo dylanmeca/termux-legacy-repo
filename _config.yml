@@ -1,5 +1,5 @@
 title: Termux Legacy Repo
-description: Apt repository for termux legacy. It is not official of Termux.
+description: An apt repository for Termux Legacy, install packages that are no longer available in Termux Legacy. This apt repository is not official for Termux.
 theme: jekyll-theme-cayman
 google_analytics: UA-210931278-2
 show_downloads: false
