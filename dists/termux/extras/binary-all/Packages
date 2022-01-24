@@ -1,0 +1,337 @@
+Package: adwaita-icon-theme
+Architecture: all
+Installed-Size: 42468
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 3.34.3-1
+Homepage: https://www.gnome.org
+Depends: hicolor-icon-theme
+Description: Freedesktop.org Hicolor icon theme
+Filename: dists/termux/extras/binary-all/adwaita-icon-theme_3.34.3-1_all.deb
+Size: 10798212
+MD5Sum: 70958b7c4077446dd3548ff27d0dc70b
+SHA1: 12f874eb08be39e412a3d1186fc57526dff3ca5c
+SHA256: 28df1544c21483f0aa2b53bf8dcae1d1bbbe261e320790697b78972125e901c7
+SHA512: eec299c8f4b2f0e603cfcf679003721665c7a69c2a5399777f0c3aa07c5933ac7bf58e0f79517102dbb75465e90b412f2e3af6d9368a0587be5f372ba9e07856
+
+Package: hicolor-icon-theme
+Architecture: all
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.17-12
+Homepage: https://www.freedesktop.org/wiki/Software/icon-theme/
+Description: Freedesktop.org Hicolor icon theme
+Filename: dists/termux/extras/binary-all/hicolor-icon-theme_0.17-12_all.deb
+Size: 4708
+MD5Sum: 64e78eb0ba298e9d4aa3b4a8683863a0
+SHA1: 0fe8b97eb09cfe5d53ff3903f2481d0789f570b6
+SHA256: fa8e27771a35b63160d050473d299c5416d57c981bbdbb20674a526c67d4a7a6
+SHA512: 7934b78adda0a926a0e34a55d7afdac6b2b75188b34527089396414e2812f3669096ae31e9938dd96304f5257f1d459b2592172da226eeeffd7ff32e66ce456e
+
+Package: iso-codes
+Architecture: all
+Installed-Size: 2984
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 4.3-2
+Homepage: https://salsa.debian.org/iso-codes-team/iso-codes
+Description: Lists of the country, language, and currency names
+Filename: dists/termux/extras/binary-all/iso-codes_4.3-2_all.deb
+Size: 253660
+MD5Sum: e2bd78f2f2065aa732d708f520b1c2cb
+SHA1: 00ce6b85e24daf6b8930dc0948cbe34a0419c4e5
+SHA256: 879c9481a4ab34b5d9812da9347affbacbdcce5829c34eef25f2fac1fb2df479
+SHA512: f4dfa7d75e02a76c1296b239b95c0bc5ec98d3807e876947b3e132e87623ee26ea72fefb4ea49abe1aed53237b6d6a9910181eef654da9918674b90102b05ab0
+
+Package: lxde-icon-theme
+Architecture: all
+Installed-Size: 8512
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.1-3
+Homepage: https://lxde.org/
+Depends: gtk-update-icon-cache
+Description: LXDE default icon theme based on nuoveXT2
+Filename: dists/termux/extras/binary-all/lxde-icon-theme_0.5.1-3_all.deb
+Size: 4467422
+MD5Sum: 6f305da339c6c487b30cc868294a8313
+SHA1: 1edc7c49acdd5a52c8eee030c5ec28c57fa7133c
+SHA256: 3402a8cbdd73ff6ac09d4e7962c604f4b583715ea43a0740a276855d0cbb476e
+SHA512: ec7115f9a029165c0a4d3c8470ab857e4fde4b5759fe969fc4b8ce3ae7c24b204ba3b4bc36afb0656de3758ac25967b8d7a766eca36052b6a744b632472a0e1e
+
+Package: lxmenu-data
+Architecture: all
+Installed-Size: 252
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.1.5-5
+Homepage: https://lxde.org/
+Description: Freedesktop.org desktop menus for LXDE
+Filename: dists/termux/extras/binary-all/lxmenu-data_0.1.5-5_all.deb
+Size: 44714
+MD5Sum: 05c86a8da65cfb56548cf5443e498051
+SHA1: 6edfcb065ff982900a5e73ed1f49c6ea4013093c
+SHA256: 5f26ea960102cbe172b5ce70951f89154294e02ed5f8a187bf667743e81f2f5d
+SHA512: 7b0357e6e3c7f48701822db01e5edaee1b6bd34ead4ea2eff27c1c5fe5f627080815d6a272ac24783598f57f687682fee7db46753d14e172cab67dc05901e221
+
+Package: openttd-gfx
+Architecture: all
+Installed-Size: 5200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.5.5-4
+Homepage: https://dev.openttdcoop.org/projects/opengfx
+Description: A free graphics set for openttd
+Filename: dists/termux/extras/binary-all/openttd-gfx_0.5.5-4_all.deb
+Size: 2874042
+MD5Sum: 89260eebfc80152143f68566a5777cfd
+SHA1: 2dc538def670c592f6926c232369e61c0bbc001d
+SHA256: aa1a8044d1649aeaeb7b3a9220708623500f7922b253619a633b8c06f7dce1af
+SHA512: 71aa8cbc10598745f5706e631961a791fb80790bf543463a37221352d1ae9ab84271c2439ab215b6c1c5084285e7241fffedc97114302a5bce2e3efc81d08641
+
+Package: openttd-msx
+Architecture: all
+Installed-Size: 816
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.3.1-4
+Homepage: https://bundles.openttdcoop.org/openmsx
+Description: Free music set for openttd
+Filename: dists/termux/extras/binary-all/openttd-msx_0.3.1-4_all.deb
+Size: 87132
+MD5Sum: 9b59133628b184fd6a2014b3ea5a837f
+SHA1: df10b199359208867489f64a5f4342d997bd6996
+SHA256: ba97fc77de9b7bda0d5554128e3cac380fbbc862712fbb8611337b178bad9837
+SHA512: 47928308948aabb870ac404bb8f6186a31fb91b1877f2526625cbb3e9ee03bd1cded94f46c1b2aab74b812d7748b490deb5b39fc6d5a9d67b56b6f7069927682
+
+Package: openttd-sfx
+Architecture: all
+Installed-Size: 12888
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.2.3-4
+Homepage: https://bundles.openttdcoop.org/opensfx
+Description: Free sound set for openttd
+Filename: dists/termux/extras/binary-all/openttd-sfx_0.2.3-4_all.deb
+Size: 9464108
+MD5Sum: 21f670bfd69429095e24d0eb87af5946
+SHA1: f8c7930437ff6ac2c8fe429611ada546ce154264
+SHA256: 910950ea2f35c9976dc428c1616e44081f3ac008a836453de25d361141c8dfa1
+SHA512: 4af38606a86c23c0c1131b58f3d4093d4b53f757e4b80aca409ed393e34843b99614383f4c209de8d7d52e278517e9ef61b3899795ad4a675e830ed24293ad79
+
+Package: python2-six
+Architecture: all
+Installed-Size: 164
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.12.0-5
+Homepage: https://pypi.org/project/six/
+Depends: python2
+Description: Python 2 and 3 compatibility utilities
+Filename: dists/termux/extras/binary-all/python2-six_1.12.0-5_all.deb
+Size: 19002
+MD5Sum: e942d82851bbe77f45d97ac8566734e2
+SHA1: 1c498724148434015d7e849cf321568f60bfa66b
+SHA256: 45150773e8f3237d18c8f772731a606f4e715f628764ef8e804a887d6eb91624
+SHA512: e23677a578f207ecf04b6ba897ac9b885598cb7cea7bdb86d0e60ae9c986c9ea10938de50a405df88ff6e31704b804834122d286c1f75fe52ec3648b135dc118
+
+Package: python2-xlib
+Architecture: all
+Installed-Size: 1264
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 0.24-4
+Homepage: https://github.com/python-xlib/python-xlib
+Depends: libx11, python2, python2-six
+Description: A fully functional X client library for Python programs
+Filename: dists/termux/extras/binary-all/python2-xlib_0.24-4_all.deb
+Size: 150872
+MD5Sum: f12bbe559c97e010defeb3629ce5d718
+SHA1: 30b4ed240810dd671b3ef1173a379261fb02d206
+SHA256: 8c5a3e0949f5a9854a83b930f3e68fe7c4d035a325248acae07da79f4cd825b7
+SHA512: 88cb554ae5564632a1c864db968072ecc09db96a3fba2e2a74049aee955363d63dc6ceeb0882688fb8b32e929999f8f79abcc06939deac8400311f80be3bbf3e
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10096
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.37-6
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Filename: dists/termux/extras/binary-all/ttf-dejavu_2.37-6_all.deb
+Size: 2469248
+MD5Sum: 8376149ccd4315305f60d517ac615868
+SHA1: 68f1ee5f620822e038fdf0d193db1f58d0db6af6
+SHA256: 13cbbb961fb0f175adeb484c858a6718849bfdcc1f1cb3ee964712c5d31734fe
+SHA512: 93af6a7aa115ec1518149526847d2922b57745aa76f04774cfef49ebb225f9f6c5cccf4bc2254dd5d34d9183c724c925049ceaafb8eb40efe9eefebb84a035a2
+
+Package: xbitmaps
+Architecture: all
+Installed-Size: 484
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.1.2-10
+Homepage: https://xorg.freedesktop.org/
+Description: X.org Bitmap files
+Filename: dists/termux/extras/binary-all/xbitmaps_1.1.2-10_all.deb
+Size: 18344
+MD5Sum: d312e6da8d2942e43b071e7ebfe12f37
+SHA1: fad82c6b2832ec9901e628d2f7d9a1010870e7e3
+SHA256: eb0b5dbc07bc624084d9023c1f5081b7f2a56cc3c50df709d8c2e7b620e8af0c
+SHA512: 60d555b60a7e42d2a332cbd5c0f1b639cf514a05caef928e1e881836dbda1b53c82dc2987c1559daa23ccfffa2ec09c832e4632b53579ded4f7b87138cdf72b4
+
+Package: xcb-proto
+Architecture: all
+Installed-Size: 1056
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.13-9
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Description: XML-XCB protocol descriptions
+Filename: dists/termux/extras/binary-all/xcb-proto_1.13-9_all.deb
+Size: 102260
+MD5Sum: 6b3f2ac91cfbeee932a68cfd4bfc2318
+SHA1: dc6321a93ead4b81b12527f123442b3b73a72c9a
+SHA256: abbd53956d0337167abe8ac85b819790ab0d99eb889c151a95d9178c946cd8cb
+SHA512: 41c0f248b85e97902a917816f2eac73a30cea550f6e32417b57067338a65a6bead39ace77f93e5fcdd4feb8a365428bf6f303c63ad2fb7c2076afbd70aa85712
+
+Package: xfce
+Architecture: all
+Installed-Size: 4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0-2
+Homepage: https://github.com/termux/x11-packages
+Depends: thunar, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfwm4
+Description: A metapackage that installs all parts of the XFCE desktop environment
+Filename: dists/termux/extras/binary-all/xfce_1.0-2_all.deb
+Size: 738
+MD5Sum: 2d95082d58551290acc429f39b8fe3d1
+SHA1: b8b7935bd02220d7ba138e81a9742c62aec295bc
+SHA256: 13e1e5199ee93dd1c0124999d8dcba31ee850b7b1f4a9143e572ca5d2b9d6f5a
+SHA512: 2143f142066263a4ecec88517aeea8f063222a6b27a00e984c01a50e0a1998fa4c6cd40811bb5f94342c5e802d395267337acb3c3ed6cf75cf7b6fdcd0534b74
+
+Package: xkeyboard-config
+Architecture: all
+Installed-Size: 3960
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2.28-1
+Homepage: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/
+Description: X keyboard configuration files
+Filename: dists/termux/extras/binary-all/xkeyboard-config_2.28-1_all.deb
+Size: 333612
+MD5Sum: 2e4340de080b5fbb154483398009763f
+SHA1: fe95ca9958890b95a4eb51dd3b6848c826d19d4f
+SHA256: a3c77749498a97fbfaf774840964ad9479d15517eae9a8d00d62516e05a93939
+SHA512: 7c6428f91fa9fffdb2a0fef1076ab1e504fb7ffdc85dd0779dc532f90384d2ee1ff257cfabdad8cfc385b469d8f1bdc6dac08b57fa189bf3f4b0dc4d2ea052cf
+
+Package: xorg-fonts-100dpi
+Architecture: all
+Installed-Size: 17292
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Description: X.org 100dpi fonts
+Filename: dists/termux/extras/binary-all/xorg-fonts-100dpi_1.0.3-9_all.deb
+Size: 12382040
+MD5Sum: 9b8b7af579c5eafb8e749f42f6dedd37
+SHA1: 20a36733b822166622ec98549325a9ea8c96482b
+SHA256: f68ba300f7cae67b97aca61cf494baf584589825271be73125db26740616b860
+SHA512: 6f6754bb50514f378ec7b4b049cc23545f4f9d20fcc8546be4a8cad7e6af3a850fbb148185b6aa62d94914ec923446aa416b8efcb27c92c3b7f203c66314676d
+
+Package: xorg-fonts-75dpi
+Architecture: all
+Installed-Size: 15996
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-9
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig-utils, xorg-font-util, xorg-fonts-alias, xorg-fonts-encodings, xorg-mkfontscale
+Conflicts: xorg-fonts-lite
+Description: X.org 75dpi fonts
+Filename: dists/termux/extras/binary-all/xorg-fonts-75dpi_1.0.3-9_all.deb
+Size: 10726202
+MD5Sum: 4fe9fc56bca4bc39e1e523c266d109b1
+SHA1: 77325601df8d4d276dc78af3b009da8e5f28744e
+SHA256: a39f6b6bc7808e2f426da1f9b291529e979f26c0aecf8a291d19973ff6c94c96
+SHA512: 8eba344bbe00684edd45fab25edb67d5a603e9162d86fcc019ebd282534d170065d9067b095538e25417040f108fa75938649a1df99918f08d4ae0c87cdcf078
+
+Package: xorg-fonts-alias
+Architecture: all
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.3-7
+Homepage: https://xorg.freedesktop.org/
+Description: X.org font alias files
+Filename: dists/termux/extras/binary-all/xorg-fonts-alias_1.0.3-7_all.deb
+Size: 2828
+MD5Sum: 747e24a094e7416cf5ee328eaf8b3cd9
+SHA1: 3f5962ffb466291e105321025a44f9c20345e325
+SHA256: 4814fe597cad2ff1ab66405deb9c397a413fa65ddbf2bbccf0002d0ea3c952aa
+SHA512: 46fb1d07a0cc14b37cfdfc1c9d2457601f559c2aaee9e40b73f777645335bc7a37ce51801cb7e804c1a51d009aecdc9c14c191585e55e46c4cfbd1622e3ed017
+
+Package: xorg-fonts-encodings
+Architecture: all
+Installed-Size: 808
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.0.5-4
+Homepage: https://xorg.freedesktop.org/
+Description: X.org font encoding files
+Filename: dists/termux/extras/binary-all/xorg-fonts-encodings_1.0.5-4_all.deb
+Size: 569400
+MD5Sum: 8e2a23ffc22bf2859e424d7f90d644c7
+SHA1: 2da9403665534b76e9bb13e4f24c7e9ba2099429
+SHA256: 9e036e9695fad2149bb7d5e92e41ed874f373885906bbacf3679e21e6a4954af
+SHA512: b37a4bdecb8fbbaaafa839a1e31c97bed560636dbc36ba83d4d46ee080c1f3ed8108e1db06b5b4326cd57abbfdb166ec82125a0482e92d01d5b9ae473fe3e0ba
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 144
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.19.2-5
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+Filename: dists/termux/extras/binary-all/xorg-util-macros_1.19.2-5_all.deb
+Size: 21496
+MD5Sum: 4ffdc14c0a2563754451839fb3a9752b
+SHA1: 69d9500d8255bd948400e9df61ff0f4eb96c6517
+SHA256: d2ac4a18094349646ca6bc218b4f874acf8f015bcfd87e1d69335b2727cc9390
+SHA512: c66fa15f010088c16687443a0e8eb95bd9250438c77d970f152377c532b4dbd0f65d3bb5deef9ee6d6f23cdcaf6758d41437318afa151fe840b7f4ccbd652119
+
+Package: xorgproto
+Architecture: all
+Installed-Size: 1748
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 2019.2-2
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Description: X.Org X11 Protocol headers
+Filename: dists/termux/extras/binary-all/xorgproto_2019.2-2_all.deb
+Size: 174222
+MD5Sum: da8b0476fa1b609bdefcbd78314714d9
+SHA1: 49404c0fc96f14d57612ca41591d835e6a7b4875
+SHA256: 56d714062b92b9f96ad15527dfcc337ebef778c81492f7d2fa46f812d84681c3
+SHA512: faa911ce0e84332fb8ab919e4c5876553884c47fa9f6f04063fab4faaa926a6992b752c2a9576f11b430d41cc6f0a52704b313c13d637296283081c1801e1826
+
+Package: xterm
+Architecture: all
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 9999-4
+Homepage: https://github.com/termux/x11-packages
+Depends: aterm
+Description: A compatibility wrapper for Aterm
+Filename: dists/termux/extras/binary-all/xterm_9999-4_all.deb
+Size: 896
+MD5Sum: b4a2895f83369ad8a660f029dce68445
+SHA1: 672b042baa00f8d9a8d52f2a5533fbf3ddfc2805
+SHA256: 9b6d8b95953ec8a371569b676f75c17ab90a6288ed8aeea827b18e31b11d22d1
+SHA512: 726754d9b2635567f80de142509b803767aa435b00e05671e97a392bd6e40cb8d98f3141549f8f96523b3ec55e61d3c0907eac84fe058e925d76c76d2a250e65
+
+Package: xtrans
+Architecture: all
+Installed-Size: 316
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com>
+Version: 1.4.0-5
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+Filename: dists/termux/extras/binary-all/xtrans_1.4.0-5_all.deb
+Size: 42646
+MD5Sum: 64e6853f84bd5d2670cc1b728770d784
+SHA1: 70035ff1c5d0f79230868f05d6c526452ca5cd97
+SHA256: 0b63be0baaac9703adfafd6b96dd8c8616a2be810058c7df54e0dec27b42039c
+SHA512: 783b091921a0eba05a72ff9762ce5ab7567bb0b09a02b9080c05ae6ca1186ac674ea3ecc6d6262022bf27f2e86098a3a2ae8ad47950771c735a326550aaf9ea8
+
