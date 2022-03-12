@@ -75,6 +75,23 @@ SHA1: 4261e13c054b2a5e8e661fb4a1f996d3035a79df
 SHA256: 79d92f2db687ec39cd418fc8a31edbe63533794075bbdb746af10c42f2160df8
 SHA512: 5f5030ecace2b504d5d9e8614a4730b4aad7babf92662a85677e965212433c74173e0fe8862ad91febef991b391d86366c19b3a8a3884bbe7472fb46dd94e254
 
+Package: binutils
+Architecture: arm
+Installed-Size: 9228
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.33.1-1
+Homepage: https://www.gnu.org/software/binutils/
+Breaks: binutils-dev
+Depends: libc++, zlib
+Replaces: binutils-dev
+Description: Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
+Filename: dists/termux/extras/binary-arm/binutils_2.33.1-1_arm.deb
+Size: 2096322
+MD5Sum: 1eefa6d11f8298ff63da38a1f956d224
+SHA1: 0e96ea0018fbad5ec10833c31bbb20c4a3a2c1e5
+SHA256: dd4b7940d9d03f171bb5aef972d1fcad1fd795e559a8c782955c612827f5e166
+SHA512: df686278ed991b07ac05a71559f9470f844f72c743b6fd3972a2c8975dc46e0d06932058f73f57e8958e6270e4627db906481305ad20f9850f43d45d235f0b24
+
 Package: bochs
 Architecture: arm
 Installed-Size: 4292
@@ -600,6 +617,22 @@ SHA1: 282969e0eca269f76168872772242e904497ae4e
 SHA256: 4aef78e256c03cc0f35c28fbef0422e5b6c2e83407e1c4116cb6647a7ea8d905
 SHA512: f5635a5003032f9d080c49b1aedfc96e4954fb2d29cc0c5c57b7fb989a3f114a125b3c2f48c95aa1c2f540a0ae162de518329e7fe98780e6da138097dcda7c03
 
+Package: gdbm
+Architecture: arm
+Installed-Size: 396
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.1-3
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Breaks: gdbm-dev
+Replaces: gdbm-dev
+Description: Library of database functions that use extensible hashing
+Filename: dists/termux/extras/binary-arm/gdbm_1.18.1-3_arm.deb
+Size: 102076
+MD5Sum: 59362cb40a566f406191dfe7fb0b2837
+SHA1: 5a116dd0288741022a60cfef87d90994905f5498
+SHA256: 0cf5ff0ebdb1c3ab7e0ecf033cb751d6de4b76d4206b906e5d844bb068e5f491
+SHA512: 78fefb251674777059a40f57d3d8780977537179009d1dd82e06d34f725807ba6320f06b33bcb7c331e40c19ce38015ef2cd350ad909fc28fcc36a5677f6a0fd
+
 Package: geany-static
 Architecture: arm
 Installed-Size: 5656
@@ -630,6 +663,21 @@ MD5Sum: 0877d2237dbe746dda5807a6cd1d54e2
 SHA1: 5231c75504d89c23844e55081d56c628288a6779
 SHA256: 3d2c9eb72b493557717e5d90503e88efc4b559e62eebfcd1972e354fc09f8157
 SHA512: 2f554a4a74cc73b6f0f65ec8dd4da406bf5c84b318027a771c73f4cba5bab9ff57bad9af4ac3403b911c90ea3aa2dfc5ebd8e86a43687e0cc863922b5c4e00d2
+
+Package: git
+Architecture: arm
+Installed-Size: 14812
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.23.0-1
+Homepage: https://git-scm.com/
+Depends: libcurl, libiconv, less, openssl, pcre2, zlib
+Description: Fast, scalable, distributed revision control system
+Filename: dists/termux/extras/binary-arm/git_2.23.0-1_arm.deb
+Size: 3145734
+MD5Sum: fd47f50c7c5ba84c1f42ad8717ccb9ef
+SHA1: f0209122a5c8858c224ad44c9089f5edf3765f98
+SHA256: 4c2b2df9a3bebff7a4ef03a318fae85273f651003521e1857ef4fab8f51a42f8
+SHA512: 6a4a7bf481e378f3c999fede6fb6c62e0af26e480e09efdf641effa49ab5e0f78da0b4da8ec3410f983602c6cb264fc7048b9ef48ea213e153b48d053f199624
 
 Package: glu-static
 Architecture: arm
@@ -709,6 +757,23 @@ MD5Sum: b530baff220003d4c95bd87740d31a20
 SHA1: 2d5aab184cbf54c8a21fd71ebf4c843f482c8c82
 SHA256: ffab4b7a42ad3e7fb84128dfd0bdcae4eaea17b44b86b8b00bd9508acfd676bb
 SHA512: d40575006fb64ecd8e2441a965b77d661573709bc4d109177ef9248168d676a36f4e7863654db8f02a0fc8e2ba56b267003d33b2089eadfd6e815d6ddf4b8746
+
+Package: gnupg
+Architecture: arm
+Installed-Size: 3668
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.17-2
+Homepage: https://www.gnupg.org/
+Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth, libsqlite, readline, pinentry, resolv-conf, zlib
+Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Filename: dists/termux/extras/binary-arm/gnupg_2.2.17-2_arm.deb
+Size: 1109634
+MD5Sum: 9ed0bf54f8b01865c3ba2428a54626cd
+SHA1: 24324ad15b5ff643e1f07958fb6d58ed96eb20f0
+SHA256: 09fafb7ff0991a70bd036f6b77837773833be06907721dc31961373c8875e2dd
+SHA512: 87e552d5e9aab66826271f86903da243951bf35cccab9eafc400b7cf9834236712dbaf9a565d9b33e095d5c99eae9af1e1977a8fc61ec6c957d7538072810b65
 
 Package: gnushogi
 Architecture: arm
@@ -1077,6 +1142,22 @@ SHA1: 562138b075516a90afd532ab312e1428f7922b1e
 SHA256: 26c0978465e27ae3746fe4aaa702afd69f8fa60e4726ea44e3258ba3ab5681bd
 SHA512: d5fd01a9778503e3fd06c587f40479d54a9864a45a279b70e7e2b5177757f16ab4b0cef3e3181199d06972af6f45cb89becdeacdd83516f0532be70af6cdde65
 
+Package: libffi
+Architecture: arm
+Installed-Size: 152
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2.1-5
+Homepage: https://sourceware.org/libffi/
+Breaks: libffi-dev
+Replaces: libffi-dev
+Description: Library providing a portable, high level programming interface to various calling conventions
+Filename: dists/termux/extras/binary-arm/libffi_3.2.1-5_arm.deb
+Size: 23400
+MD5Sum: d3256e10b42c2e0d3f54ce27d125a5dd
+SHA1: 229bb656c02d2a79fc1a6a8f2818b65a435bcf0c
+SHA256: c6e4d05d530cf459bfd58a1f2171ae5f5d8d600a92a2ed576945534cd5287e9b
+SHA512: 19649d4d94d58ef125f8758de2a48122dbfc7a1393bd16565de6d29ab51a28206641b957f237b8f9557058834607dc6f5ce6f71c7dc9df7c08ba1c40b6823cb5
+
 Package: libfm-extra-static
 Architecture: arm
 Installed-Size: 48
@@ -1186,6 +1267,23 @@ MD5Sum: 3453142a310064a197ef967895eee8db
 SHA1: 679b8fd03ed8af9c65a7a0bb579678943510f0a2
 SHA256: 357f6d2eca188d0e382d7ab45d240b82d7678d39ce012f6e0452dcffa920a834
 SHA512: cfab5514808850e41941794361ac50fd30f2a8e9e0ad0313c75d864e9a016c146f260689ace7ab43642c7eb5e88e16a451479478d7da06c95fa320698cc45984
+
+Package: libgit2
+Architecture: arm
+Installed-Size: 1464
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.28.3-1
+Homepage: https://libgit2.github.com/
+Breaks: libgit2-dev
+Depends: libcurl, openssl, libssh2, zlib
+Replaces: libgit2-dev
+Description: C library implementing Git core methods
+Filename: dists/termux/extras/binary-arm/libgit2_0.28.3-1_arm.deb
+Size: 429098
+MD5Sum: 28318cc6af9c44b5187a83b8820ff749
+SHA1: 03175151ebd484589f250c6319c3ecba682ddddc
+SHA256: e1121ff158baad5065a42e50941f7e24ac6e75c98e94d2e2e018eb890fed20ca
+SHA512: f48b717a50177621223d8d411e1a5dc821f858e27b8bf7bd9905fc43308e2837a68c9d1c5c44d0430063df9d3625d9518a74dbc70af9e4f55ca45f5205899bd3
 
 Package: libglade-static
 Architecture: arm
@@ -1383,6 +1481,39 @@ SHA1: dd138df21725dd99e7590eb9713f9a97e36dea22
 SHA256: 0dd3cbed26673cda3cd2378fa2a5ac303c48c44374aff226ce35e737d141fa07
 SHA512: 0bce7949db58938fb0d72b1a5d61084b85bddd4f7a801844a05a41c30f77a65aed24714a9e52653a7aa2978d57da8c58a02383acd5c432ee6604aa39fc805954
 
+Package: libsqlite
+Architecture: arm
+Installed-Size: 1376
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.30.1-1
+Homepage: https://www.sqlite.org
+Breaks: libsqlite-dev
+Depends: zlib
+Replaces: libsqlite-dev
+Description: Library implementing a self-contained and transactional SQL database engine
+Filename: dists/termux/extras/binary-arm/libsqlite_3.30.1-1_arm.deb
+Size: 520954
+MD5Sum: 3811f9291902dd39c73c1c9e9c2c81a1
+SHA1: 7d52f638d88df5ea854bb6e08a6ebc9999e2b22a
+SHA256: 432f78b7e67e7a555e0b1f17f1211ddd78357a6a86181c001d6b335b14f11efa
+SHA512: a67ae29d4b9bc8a401c1acceb2260f25d77d2d0ebc68bf220b3357c8d542a8c33d0f9322d827521676d0511a427ce0de6aa8bd21ddda34e9c7a36b9cc97ba620
+
+Package: libtalloc
+Architecture: arm
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.14-4
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Breaks: libtalloc-dev
+Replaces: libtalloc-dev
+Description: Hierarchical, reference counted memory pool system with destructors
+Filename: dists/termux/extras/binary-arm/libtalloc_2.1.14-4_arm.deb
+Size: 33466
+MD5Sum: 221081600c3abed2b8ee39f598b47bbd
+SHA1: ab26b89482237acb88355d79c46156db74c6aa05
+SHA256: 38354ac6880947ecf1975146aeb03578af65f905e120a8beae0d80be45d10f2d
+SHA512: bc525281b15795230c9ce8b6b4a312fcf77a4e1ebf80ceeb3be2654f311c8f58e003e5242b875ad2ac4e53fe2b3bf7db5679dd23af41f22190d9ba29487f86bc
+
 Package: libunique-static
 Architecture: arm
 Installed-Size: 312
@@ -1412,6 +1543,39 @@ MD5Sum: cf2b2934629e990d51453ffded92d45f
 SHA1: 6203c2a9799f0412e30a64cf40ba50ad9f0f7bb0
 SHA256: 6ae552372f783126f6edd0ca287ce38a29ad82fe29c2c4d2ff82b3cd6f5b2b78
 SHA512: e8b8a6075c199351bd13504fdad24d1987afd7f8e8275ac8815918d661828e1b23766b1e5c262a97b37ee63911d17d727a0340e9b14e29dec67b1bb506d3a782
+
+Package: libunistring
+Architecture: arm
+Installed-Size: 2636
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.10-4
+Homepage: https://www.gnu.org/software/libunistring/
+Breaks: libunistring-dev
+Depends: libandroid-support, libiconv
+Replaces: libunistring-dev
+Description: Library providing functions for manipulating Unicode strings
+Filename: dists/termux/extras/binary-arm/libunistring_0.9.10-4_arm.deb
+Size: 483468
+MD5Sum: 1b4c955ed74816607b6742944644f79e
+SHA1: 90bf9ef6d1be1882942c0ee6cc1057d94bbc99fd
+SHA256: d887d8f9499164e91bc9a6dc2259ad7b3f23457f4b912095af0ce6a91c509e90
+SHA512: e64fab5bbf8ee2ffc429332b17cf9e6103a9e0b4fee39998d8c97ec0b96ac48b67aacc9168cf8f533834a06bf926d894ff16bbca0b38c9b35c300e1cb2818366
+
+Package: libuuid
+Architecture: arm
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3-4
+Homepage: https://sourceforge.net/projects/libuuid/
+Breaks: libuuid-dev
+Replaces: libuuid-dev
+Description: Portable uuid C library
+Filename: dists/termux/extras/binary-arm/libuuid_1.0.3-4_arm.deb
+Size: 9628
+MD5Sum: 51ec1839197dff89822d1a1ab938dccc
+SHA1: 6da8e20a988066e5f3a20a4541a2603b407d3689
+SHA256: 85da2c92b0937c9913b5a92a9ee4aab08fb1e44fde77726a0d8e41eb7e4fac19
+SHA512: ac320dd3fcc8cb8768ee3e12171c53ffd6e8497061c5536fd0dcca6020b4475b7a74a895532347f9201d703a30f9cb22ac8ddc63520abc89d86cbe49bc2d6b75
 
 Package: libwayland-protocols
 Architecture: arm
@@ -2514,6 +2678,21 @@ SHA1: 512fe04f80851110850c5246683a2d6789a20a77
 SHA256: 759efadae649db6eda9787d34b9b1c4093eaf06ace3dc7e3db4dfeb802c9033c
 SHA512: 4f86d1dc006d9ab336cdc87a54ff96314ec2a54d0a5afbae8a140a21de1c86ca801afa5de8755d39971755e8c0f9ce297c1427a9ef2d0fd7cd5cc3f3e2ed7038
 
+Package: ncurses-ui-libs
+Architecture: arm
+Installed-Size: 112
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.20190511-8
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.1.20190511-8)
+Description: Libraries for terminal user interfaces based on ncurses
+Filename: dists/termux/extras/binary-arm/ncurses-ui-libs_6.1.20190511-8_arm.deb
+Size: 31428
+MD5Sum: a559006a1d49b630bc20b5036b563db1
+SHA1: de3e58b4a207967ce6aa6b273025c4fd8f5f4903
+SHA256: e6bfb4c445a44f26ba2bc46bb8a3a7aa49a8e390ab19dbf750b416e657444ccb
+SHA512: c8a0deb260ad03882cd9c109352e3fa273fbd86f4631f83bc726db325e60f1a256eaabf7d2593a449dbbc46a2f87db714001e94bf6be64cde44f8119c90b1709
+
 Package: netcdf-c-static
 Architecture: arm
 Installed-Size: 1444
@@ -2811,6 +2990,22 @@ SHA1: 2fdd86921379534bfde86fda3dc21eecd6f47d1c
 SHA256: 1e7470ec8cbe7bb17097e4eb58a7f548db17b40a8974e26d3767eb7f2785ff8a
 SHA512: fdbb11cb57e707d00a80b82391e41a0d4f80ce7387d0bb257b9ab45cabb35a681b1d0fbd1a05bc43bdeb2ad62c1ecedea4228f2f0e86768e93c3b2b74ff6817a
 
+Package: pcre2
+Architecture: arm
+Installed-Size: 3536
+Maintainer: Fredrik Fornwall @fornwall
+Version: 10.33-2
+Homepage: https://www.pcre.org
+Breaks: pcre2-dev
+Replaces: pcre2-dev
+Description: Perl 5 compatible regular expression library
+Filename: dists/termux/extras/binary-arm/pcre2_10.33-2_arm.deb
+Size: 816794
+MD5Sum: 8b73086773fb8eaddea17e321f541987
+SHA1: b1c09b3d83521c8866c0f9543d8eb0f32f7cb77b
+SHA256: 9d52a69670182a3a1d636e1e16a8e70d666448f39c2106d0999758d8ee5ecd38
+SHA512: 3a195c09d2f45cf4db5523902bce2de0f5bd128405ee3c227c8da449acd9e13077418d907a044b6d3958b9b374105185d77a755e253ca4b194834c0d2b4141ec
+
 Package: pinentry-gtk
 Architecture: arm
 Installed-Size: 196
@@ -2891,6 +3086,21 @@ SHA1: 83f93fa068cde826f2007dad1a2d47b5d5cf41ec
 SHA256: 7f4a4802d332c014961be9c4142be5e48c1c2c44700dc7467bda1f41e4e2d435
 SHA512: c3061cc10e17626f0ad31c97ef2ad44d27d33f31bcbaf45b640ddc7e2e32004551a5745126789513497e078b585745748488b2e6b96c33f6611e173a54efcf35
 
+Package: proot
+Architecture: arm
+Installed-Size: 196
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.107-23
+Homepage: https://proot-me.github.io/
+Depends: libtalloc
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Filename: dists/termux/extras/binary-arm/proot_5.1.107-23_arm.deb
+Size: 66624
+MD5Sum: 9a0fb623b5bd88a08d447a00ab4a2bdf
+SHA1: 4be6d68315610408d6001ea764571f8638822ef9
+SHA256: ad79729a523422a40f0b327a60e7e686008fd9b447875f119f4fa3fc065e01cb
+SHA512: ab0928c94f334856e3608e0bf49668a535aa6e9804f463d324e69b9693b8f9b550495b7060cec7e8a8e49a79fb4abf1408f0479f40f08e1f087d12ed963151ac
+
 Package: putty
 Architecture: arm
 Installed-Size: 2980
@@ -2920,6 +3130,38 @@ MD5Sum: 3ebec0843c83d41e6e8fd1c1b9c03073
 SHA1: 15bfd3f7a50d1db2fe15886829bebb620f805c3a
 SHA256: ba4e8acb8ab2cf818ed9dd1af676caebf94d0497faf1d4832ec3b16d8fbfcfd4
 SHA512: 0dda79f23022c8ed812e9593a575b96d2481419d4a1b8bf7caaf6aa5a0bb5725aef14b84aa82825ad82ea0b38980ef48fe6067d21156211a4a1657ea2d36443d
+
+Package: python-static
+Architecture: arm
+Installed-Size: 9932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.8.0-1
+Homepage: https://python.org/
+Depends: python (= 3.8.0-1)
+Description: Static libraries for python
+Filename: dists/termux/extras/binary-arm/python-static_3.8.0-1_arm.deb
+Size: 2480926
+MD5Sum: c843ddcd14d4ad612caaca7905b86179
+SHA1: 5a4d2d5561492cb2e7c7fd6050e61c7d0849f4e2
+SHA256: 899e6e6a6f34ac616f9e28310d74c4c2ff6c772af09cebd7cec7f982fb2bf8be
+SHA512: 87fb9a1784302da9509adc10b5ad4e5897a22cbd0ce7a47e528355044c504750b3dc4b80c3a0ccedd713a44b85155d0179f109cb288e6a25ff54f07230dd0ac6
+
+Package: python
+Architecture: arm
+Installed-Size: 45696
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.8.0-1
+Homepage: https://python.org/
+Breaks: python2 (<= 2.7.15), python-dev
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, liblzma, zlib
+Replaces: python-dev
+Description: Python 3 programming language intended to enable clear programs
+Filename: dists/termux/extras/binary-arm/python_3.8.0-1_arm.deb
+Size: 8061262
+MD5Sum: dcdb3fd8fa2c5e1e5224b70db40123c7
+SHA1: f8f8f8a191052783ce387cc1ff898d93d08d2b13
+SHA256: abeff98316385223fb9f64fac64ddd4b0bd9446f8f617216a9079700879df51d
+SHA512: 7dc5b47ebfc11d79826d016743410b9dc7038667615c96d14eeb9b0c270f6c108b0552ab75328f50fc64d2504da22e812c2095a48e522e4c4cde2f760f3f3360
 
 Package: qemu-common
 Architecture: arm
@@ -3968,6 +4210,23 @@ SHA1: feaedee4d0645407e1b19a66aeb0900aa7c0ce07
 SHA256: d2286a8fd072cc8cca2540a28d95ef808c2f27f9b194ff25ed65aa823f34fad0
 SHA512: 9f4161f5391363d136c02ed7eb7204b146dffde73bce3d0a54598fa1b8469a0cee3c56c8899edd6d50d3577140b70eb469c5007875890f20b325ea7dac29e217
 
+Package: vim
+Architecture: arm
+Installed-Size: 1620
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.2200-1
+Homepage: https://www.vim.org
+Depends: libiconv, ncurses, vim-runtime
+Conflicts: vim-python
+Recommends: diffutils
+Description: Vi IMproved - enhanced vi editor
+Filename: dists/termux/extras/binary-arm/vim_8.1.2200-1_arm.deb
+Size: 878222
+MD5Sum: 72bf2c65a665a30befed763364577e21
+SHA1: c236c2aa7505ca290562dfe3b3ea5304c7121740
+SHA256: dd854daef2d016a6902c33c70ba48173a4c505ecc77c7bcf7701c725086a187d
+SHA512: 285dde48ab7de99074834251c4573cfb4e9af193ef3da3475460e54efdbd2a98a8129ac69f936eee1e306bc1d3081737d073da0da81ac4fb3ae33bfa9692fe52
+
 Package: vitetris
 Architecture: arm
 Installed-Size: 140
@@ -3982,6 +4241,21 @@ MD5Sum: a00054e1fb3e212bff16188af4d1b3be
 SHA1: 8aaca77e70984c31666fe87ecc474580103a213f
 SHA256: c95d75b778b13fe40eca814f69c3f11ec6cb7814e57475d675ad01b5d42c6677
 SHA512: 6348175ad795a277bc3b89e3c95462191e993781a8841e59b92924120e71510eb068fd932eeadc15a881e9731d6fa53cd8e44cf5c37d11cf65c2ce27eba7690a
+
+Package: wget
+Architecture: arm
+Installed-Size: 664
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.20.3-3
+Homepage: https://www.gnu.org/software/wget/
+Depends: libiconv, pcre2, openssl, libuuid, libandroid-support, libunistring, zlib
+Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
+Filename: dists/termux/extras/binary-arm/wget_1.20.3-3_arm.deb
+Size: 266560
+MD5Sum: 458a18d868b35f92d533a0162c0acaab
+SHA1: 580cc8a15770a100aa497d5855c54279ff93f951
+SHA256: 56ddd873b1c2a61f96acd29dec04e421c7f8542bebca50f3b657e45aa843d5c7
+SHA512: 37eb83fe4ffca9e2720eef94a71a6ad7cc3225a177aac253fc4c2b68aa3d86a51e93ec1244fce3226eca2c94a5f51bcb936eb95e02f3861bcb683e71325fbcaa
 
 Package: wireshark-gtk-static
 Architecture: arm

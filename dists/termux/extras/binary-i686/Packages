@@ -28,6 +28,23 @@ SHA1: ec3c9252c8c95e280f8c81265a8c4fa824dee531
 SHA256: b67f8e9e80c6cc7fc21eb3d451b354739f2de2e30e6e3422a8ef2082e4a6e7f3
 SHA512: 3b79f221d45dd4fbefd14b9b341f0695fd05ebfa771cc33791d6d1ae57954ad661a445dabc505884a788b681cd65f759840938651495e783490859cd63a2360a
 
+Package: binutils
+Architecture: i686
+Installed-Size: 11828
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.33.1-1
+Homepage: https://www.gnu.org/software/binutils/
+Breaks: binutils-dev
+Depends: libc++, zlib
+Replaces: binutils-dev
+Description: Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
+Filename: dists/termux/extras/binary-i686/binutils_2.33.1-1_i686.deb
+Size: 2264572
+MD5Sum: 104c64959290213616b04efa7ba74740
+SHA1: 48658f88d9d61f0457def28e52511af513ccfbcf
+SHA256: b45495e4af63df01af3446931f762b0b94bd80952346e31ad23c09375211dc8b
+SHA512: e221899bd2c14b8a609cc4154b292a8f145701a8d7e0af3e8b63dae8c1e46a76cdbc9757475955a0de918d7b6ec68f753036e9779b33e0482ea3cab84bd2e7ef
+
 Package: brogue
 Architecture: i686
 Installed-Size: 900
@@ -197,6 +214,37 @@ SHA1: 3160026b6aa3e9a2a9d6fc23a1c73e9e5f88a495
 SHA256: 9eb87e28e747beff7e230b0a1bcf9d1c5070f8d252f4c8c1894ba49b80699965
 SHA512: f3143dee024d0eebd68d6aa46c3def80bd76fa455be73c208b9d456510138db3aafcb8b169fe9ee2bccfcd4ae09f5183395aa668938dca27c75912bf21df2b26
 
+Package: gdbm
+Architecture: i686
+Installed-Size: 412
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.1-3
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Breaks: gdbm-dev
+Replaces: gdbm-dev
+Description: Library of database functions that use extensible hashing
+Filename: dists/termux/extras/binary-i686/gdbm_1.18.1-3_i686.deb
+Size: 102278
+MD5Sum: 840a3155c1556f916db43b0545929aee
+SHA1: 2f4b9d40118584dd3917b01311e789863ca313c7
+SHA256: 9a93d514d7826faee51c386c134197fc1c4a7a7a8886cf8ee66bf174bcedc383
+SHA512: 61f53377b3cb587e7afc703a1a2ebf41ed9545849122968240ee327008e603a0292d5d5481abd71e65b98b48dbf46c38812e3972702467acde2f5675013a3e18
+
+Package: git
+Architecture: i686
+Installed-Size: 18964
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.23.0-1
+Homepage: https://git-scm.com/
+Depends: libcurl, libiconv, less, openssl, pcre2, zlib
+Description: Fast, scalable, distributed revision control system
+Filename: dists/termux/extras/binary-i686/git_2.23.0-1_i686.deb
+Size: 3349604
+MD5Sum: 9b8814c9a0e7419b0e8404894139c119
+SHA1: ddbee8dc7211a0262cfc9bd017831a10a5c1d4fd
+SHA256: 5fce352e1af660d29d072b31351eaef0f8856cb1de60275c753d369a0ecff1d0
+SHA512: 4135fe9db67f5445739a15637447c8f02cac841b516a72623e79338cea9217442f57411642895f607fae6ed8851b0fe7d038c9f31a0a60f38a4ef01658d891a8
+
 Package: glulxe
 Architecture: i686
 Installed-Size: 300
@@ -244,6 +292,23 @@ SHA1: aedce0b76b495bd0746c975f14f8b1cf826545e2
 SHA256: 2a705dd88bf889e5c56142b33ba15e6be8482820708434bde59cea1ab79e43be
 SHA512: 71d20943ace669ff6e60f7df3e3f6a21d9889cb66264ba1a1aad2e314f108233b09fdece966ecb4e2c1cd1284b40be5241c868722940d4d178c9d7180aff6a95
 
+Package: gnupg
+Architecture: i686
+Installed-Size: 4284
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.17-2
+Homepage: https://www.gnupg.org/
+Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth, libsqlite, readline, pinentry, resolv-conf, zlib
+Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Filename: dists/termux/extras/binary-i686/gnupg_2.2.17-2_i686.deb
+Size: 1168014
+MD5Sum: 29c9816cfff89c3f4ff8effe4cf3bef9
+SHA1: d72b6f74c6373e0e569be4f0a8a7ac49c1d9f16f
+SHA256: 17af6d29a418010e2dbc99f978131b95b93adf2379f57608f2b32890a2530511
+SHA512: 940b44065a81ed65b3fb243ffb3f9fa69942a327b4fc8ec2dc34fc99aad7d96c78359558bcc521817167b6524541dbe36559281fa7bd6301fb79875da5556c25
+
 Package: gnushogi
 Architecture: i686
 Installed-Size: 168
@@ -273,6 +338,22 @@ MD5Sum: abb15ec56684d4bc6c32fb0ff45eb88f
 SHA1: 136486e3aca15cbdc62e82e73d587c3f98e92814
 SHA256: 644ff835c260861ded054e82f83b70e3618268ee18cc5df2b2e73a52834d1314
 SHA512: 384b998288d5363a2995e090b9ba0d94dac21140dad2fbbf73da38618c007cf110be4192cd719d5a376a9ec6d5da6fafde47bb313f40b77070ed2653390b3796
+
+Package: libffi
+Architecture: i686
+Installed-Size: 148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2.1-5
+Homepage: https://sourceware.org/libffi/
+Breaks: libffi-dev
+Replaces: libffi-dev
+Description: Library providing a portable, high level programming interface to various calling conventions
+Filename: dists/termux/extras/binary-i686/libffi_3.2.1-5_i686.deb
+Size: 20054
+MD5Sum: 21e2074c6d644f74f943fde4474f15a0
+SHA1: 213dbc2c5e92a74b4edb40a661995bb061c958b9
+SHA256: 5043565633679adfe6bf002cfc4b300f18a896e16bdabac432390f6373f7fa97
+SHA512: d89ff77de11e0522155fbf33407aece6f44d5426715ef096956b26535dc0f1b7cabb01e2dc5ef281478f43076ead460b6c90924e8f4eab51d20c8a25210c20c6
 
 Package: libgeos-static
 Architecture: i686
@@ -306,6 +387,23 @@ SHA1: 81300e642fae89dc26682ac00d2453f5f4db2e26
 SHA256: c01e85bf8e77b5c80a599583e038682968ae5585ce1297a8978a09b6a144f1be
 SHA512: 842879dc78496b41a315605016c32217e017979ef0e70134b280911cab0c3774117517bd4fd40f0892058e9aac9c10b1e93fdc6c625b73352cfe1bd4f2e75aa5
 
+Package: libgit2
+Architecture: i686
+Installed-Size: 1664
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.28.3-1
+Homepage: https://libgit2.github.com/
+Breaks: libgit2-dev
+Depends: libcurl, openssl, libssh2, zlib
+Replaces: libgit2-dev
+Description: C library implementing Git core methods
+Filename: dists/termux/extras/binary-i686/libgit2_0.28.3-1_i686.deb
+Size: 455036
+MD5Sum: 42153f580c859be2fa3709e9c672b5e0
+SHA1: 3182a9dc9eeb833a64bd63fec052b0a455e2a546
+SHA256: 202c2f2a6545cb1bc2cc2f481c6a20888f200faf47cdae972feb4a891e1c7eb3
+SHA512: d7dd11070892bad4be1c24156d7cc7ffb9772add4a16922cb0bbb3ac7b2285ca624dd03ed01c9b436904d2362cc267e364374a33a8ab7ebb03f32e7c561a967e
+
 Package: libhdf5-static
 Architecture: i686
 Installed-Size: 6512
@@ -337,6 +435,72 @@ MD5Sum: b24e2c2129e950fb3be3f51b52735293
 SHA1: e3f9b292ce1ddf8a6a828b933a0b8c2674ac4c74
 SHA256: 4d5bd3e0aa51cf93cd3eb67637ff5ca246ff2d0e692dbf2c241b9bbe9cd8c14a
 SHA512: fd04b670b6b5a7d43eeb89580168c88ff0bae533fb54d88aeca7db7b38b653ae8f186513d15a6a9c0af69b6165778085ed86578d0b2101dd7f6f6043f5a77f03
+
+Package: libsqlite
+Architecture: i686
+Installed-Size: 1592
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.30.1-1
+Homepage: https://www.sqlite.org
+Breaks: libsqlite-dev
+Depends: zlib
+Replaces: libsqlite-dev
+Description: Library implementing a self-contained and transactional SQL database engine
+Filename: dists/termux/extras/binary-i686/libsqlite_3.30.1-1_i686.deb
+Size: 559250
+MD5Sum: fe5bd51cd24145eeb45758105203afee
+SHA1: 1d2bcfabc5e97cb5a91474d64e69335f1a389c9b
+SHA256: 4902d89140ae4f1f49231af63e73e15a63fe227e6d5aab66b1ca02b1605fb91d
+SHA512: a05a80823e3213040ee520cf3a5036226f326f83509ba42a68b8bf532325ccb5eb09eaef6cad33c402938f8fdc2f3ef30e1e014857acc5a0cf8a8bc56beffa6b
+
+Package: libtalloc
+Architecture: i686
+Installed-Size: 160
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.14-4
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Breaks: libtalloc-dev
+Replaces: libtalloc-dev
+Description: Hierarchical, reference counted memory pool system with destructors
+Filename: dists/termux/extras/binary-i686/libtalloc_2.1.14-4_i686.deb
+Size: 31416
+MD5Sum: 5363191ec6f9541aa52ce6cc7750653f
+SHA1: ded9cc2c3b47f82784691fd997f83e1ed7273f8c
+SHA256: 517c4a3e5999965797131e75404da5d0ae1682111037efd693673fe3047ab385
+SHA512: e80ea011f9082ffac46db26dfba40572011dc1fa20579942a04300c0cd5a1bddd7e1ee72db7803c047948d621c8e31c7f41d6d33c9db024bac9e2ec60bd6933a
+
+Package: libunistring
+Architecture: i686
+Installed-Size: 2700
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.10-4
+Homepage: https://www.gnu.org/software/libunistring/
+Breaks: libunistring-dev
+Depends: libandroid-support, libiconv
+Replaces: libunistring-dev
+Description: Library providing functions for manipulating Unicode strings
+Filename: dists/termux/extras/binary-i686/libunistring_0.9.10-4_i686.deb
+Size: 493268
+MD5Sum: 33db0cba898d80be2a11d12784e5f2db
+SHA1: b1bf188887b1eab122483936b5da2989e5d1c13c
+SHA256: 686217bdfa7d722199f8f7dc83a53bcfe5dfb81cf6edf3795d3890b7240bbf2d
+SHA512: b3875f060a7aed7afc673390b97239f122d897fec2084af9df272a8944c046a1f4ae6585218323eba0fb6460d60f47240f6ba7e9665374a3d9abd882b77a80a4
+
+Package: libuuid
+Architecture: i686
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3-4
+Homepage: https://sourceforge.net/projects/libuuid/
+Breaks: libuuid-dev
+Replaces: libuuid-dev
+Description: Portable uuid C library
+Filename: dists/termux/extras/binary-i686/libuuid_1.0.3-4_i686.deb
+Size: 6818
+MD5Sum: 7e3ce3228628422ed6a143748083225a
+SHA1: 26638fb61e4c5c1d63f6763c56738ba194947d22
+SHA256: 9987c6547bea516b858741d36e16604fc8f8834af411bdd6e0dca249a07f639f
+SHA512: de950951cbeac35af2edb53aa2d021a567019bbbc24e29abe5fbfe7ae81c22873b14d9351877a9555e044f53fcbaecfb06bd2210b73728354f6675eec5fa35c9
 
 Package: mapserver
 Architecture: i686
@@ -384,6 +548,21 @@ MD5Sum: 482793873b7e3aaaeefab313fda3e7fc
 SHA1: ae4a65da9db0d09cb7bd110f5e78bc183b704b45
 SHA256: 605d5fde24b712aa058dd6d7a27cda0bfe6e9ce59661c4c642b37840f2df5fc8
 SHA512: cda8066defd5b8dbb139a603e04e58373ae3c2a5e08438d186dc617cc21f72563d5ad2a50a793b6a8d1ac66e349502a74f05e0bd91a4ee68714be7d29a223458
+
+Package: ncurses-ui-libs
+Architecture: i686
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.20190511-8
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.1.20190511-8)
+Description: Libraries for terminal user interfaces based on ncurses
+Filename: dists/termux/extras/binary-i686/ncurses-ui-libs_6.1.20190511-8_i686.deb
+Size: 32300
+MD5Sum: fd383a0ee7569bab8a8cf06abd221292
+SHA1: 8c8ad87aff1a81814abe6056e5bb43b3e0b67bca
+SHA256: 8c179f84b46f58d06b59e8136d9bfb723ecef7ccc065a103b636d99e2f3d5c8f
+SHA512: b651be780aaca28db0b242a182eb9fe632c79f2acea21dfdf99af68c21128a82561ae4e3e44190beea421a93ccbf39fade48c98c81a4e67fbe2411434dc2dd4d
 
 Package: netcdf-c-static
 Architecture: i686
@@ -586,6 +765,22 @@ SHA1: 195bebd2a0770c669600d6f5e4410ec195df7e0c
 SHA256: 5ce78a47a3d521bd6589058f17baf330790d6bc64c7b59f439fb6c2c381a9246
 SHA512: c079367fbf566ee4e2dac6904c9306092715dd73aeb89bd48cf32134b5fd993a42303b11ad44ccd029d532a462df496532a2a0502942babb7b6e134647fda658
 
+Package: pcre2
+Architecture: i686
+Installed-Size: 3800
+Maintainer: Fredrik Fornwall @fornwall
+Version: 10.33-2
+Homepage: https://www.pcre.org
+Breaks: pcre2-dev
+Replaces: pcre2-dev
+Description: Perl 5 compatible regular expression library
+Filename: dists/termux/extras/binary-i686/pcre2_10.33-2_i686.deb
+Size: 844482
+MD5Sum: d7e3c494975f03f3c21cb7497739abda
+SHA1: f15e82bc5d356e99ab579b80c4f1620d95899f34
+SHA256: fedbc205f3c3990adfd8de7e0a3a115acab384c650ac3e554984b99dcdf993be
+SHA512: 4bda8bf03a78dc01126609ad7e7fdd67e42607d7190936369d0851d0c9099745280324da5931f885188c3e7d93f80195cffc8e3b8ed7f81b9018a3ad36bd9f9f
+
 Package: proj
 Architecture: i686
 Installed-Size: 8680
@@ -603,6 +798,53 @@ SHA1: a199ec2c97c616929aae2cc0dfe0bfc3dacc4db2
 SHA256: 694161866626b93d44bce182d18464b3da80cba8b30c6b7e75b133903af3eba9
 SHA512: d4c0c02752a785160fd12ecbc2b3c408e54bbce59a0a0e767c85c69a53e9ab1d508040b9e8923a881e3440b977613a67f3370e5d09c4e087598c3c3a92ae4e0a
 
+Package: proot
+Architecture: i686
+Installed-Size: 228
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.107-23
+Homepage: https://proot-me.github.io/
+Depends: libtalloc
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Filename: dists/termux/extras/binary-i686/proot_5.1.107-23_i686.deb
+Size: 68848
+MD5Sum: 8f9ec208e2713312ba5df5b501b8f078
+SHA1: 10ad07ece1ef4838211d41f49f9f61f19e60e035
+SHA256: 3746907670ff62512229ed831b93ce66fdd00ef381775bf70a2eb8aff4b990b1
+SHA512: 3ab0a782c6d695291905a5958905377dca1fb6580a7cfda66dc9e7d709c6b2e60cc9383639b6ee7e90530d35193397524cd788577e9f985595a1929ebbed6aca
+
+Package: python-static
+Architecture: i686
+Installed-Size: 9880
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.8.0-1
+Homepage: https://python.org/
+Depends: python (= 3.8.0-1)
+Description: Static libraries for python
+Filename: dists/termux/extras/binary-i686/python-static_3.8.0-1_i686.deb
+Size: 2461802
+MD5Sum: c2f533a2ebb4d73f012770c65f634b19
+SHA1: f7b063fc2915823a630f6c994e82a6ae03af1a8e
+SHA256: 8a793ccf3dbefe791a16a998f4f6ef2131bdece29a901696fe324da5121ef667
+SHA512: ea7c82b5a5457d68aab39e76bc4ffa40a93341380836139be8d40827d557ecda82f11172edb9f16b275db3de781d23b95e9b2fa3b23ae1cb2a93593b9716c608
+
+Package: python
+Architecture: i686
+Installed-Size: 46244
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.8.0-1
+Homepage: https://python.org/
+Breaks: python2 (<= 2.7.15), python-dev
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, liblzma, zlib
+Replaces: python-dev
+Description: Python 3 programming language intended to enable clear programs
+Filename: dists/termux/extras/binary-i686/python_3.8.0-1_i686.deb
+Size: 8110438
+MD5Sum: eaeca02b07e653b3300319e2c29e8b23
+SHA1: bc0563d5ca53e0c035c21b727f585bddddd8c07d
+SHA256: f18add335a9e0a8c744dd9191ceaf0a83a42ca7ab6a8bf480b8ee453a14ec45a
+SHA512: 9a778c5afe9b3319dfe864d6909f6fef303998948d86a194fb481d0aa23571af6a2c9150c06945872bc3e1e64d6768e21f8d122808e8c0b4303b52e3672f9e55
+
 Package: tty-solitaire
 Architecture: i686
 Installed-Size: 60
@@ -618,6 +860,23 @@ SHA1: d535ee2a80e9e94a98c905e53275285bcc8acbb5
 SHA256: 4f414714c03467fa49e9067b6598dfb004e32fa94b71f266b7d6be8c8124c399
 SHA512: 318953852feab67908234ed39722cba9f239583e3b6c977d450c40e32b1d5e85ebf2f249ac83a81c3eb493ef8b29faa8d710de1f4b158dc8bea4b43f85992886
 
+Package: vim
+Architecture: i686
+Installed-Size: 2100
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.2200-1
+Homepage: https://www.vim.org
+Depends: libiconv, ncurses, vim-runtime
+Conflicts: vim-python
+Recommends: diffutils
+Description: Vi IMproved - enhanced vi editor
+Filename: dists/termux/extras/binary-i686/vim_8.1.2200-1_i686.deb
+Size: 923684
+MD5Sum: 5a57e729614a4578be2471c205c899a2
+SHA1: 409402482df3fb83d5b593c15d47099c8e8f2a0b
+SHA256: 8533765100c0a6c882ffb074ad9bd64ac469dff591203d2a72fce1d9a6312da5
+SHA512: 69553f5159a40084078c47e629c5695c73392140f95623ceeb430e0da4e9a355e8d4f85ad2566f85e179e5542134f3fa7287a3501054ad304c9b5068bc0527b4
+
 Package: vitetris
 Architecture: i686
 Installed-Size: 152
@@ -632,4 +891,19 @@ MD5Sum: 3147660265c4a1b3923794774a549508
 SHA1: 72399870d7af0db85b471eba655f8c33c4051447
 SHA256: 53a03642d2781086858c3cebd8cbfb83f301eff1a06d9a732a1f7a3d085cfaa1
 SHA512: 9974db7ab959b08eb722511da78726871ab643111b2169578edb1973e4bcb241f3cbf41e5947945c4831c50b5c3b985fa90acc93e2019ffe9e9e9b77f9906a93
+
+Package: wget
+Architecture: i686
+Installed-Size: 740
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.20.3-3
+Homepage: https://www.gnu.org/software/wget/
+Depends: libiconv, pcre2, openssl, libuuid, libandroid-support, libunistring, zlib
+Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
+Filename: dists/termux/extras/binary-i686/wget_1.20.3-3_i686.deb
+Size: 276150
+MD5Sum: 9434a9818dc53e33a89fe240309c69ae
+SHA1: 3e2dc746c1693d2f9f2d3c60c976017f21e13189
+SHA256: 72d6787acdd549e19eaef89c1dd791b03b2e255dc613e162fcc680e07969d366
+SHA512: bd7f7b197c8a58db6d747be88e1ae701160b05e290d18cacd1c08f5f668ac13108e488c4049e68b891f80ad7612d190a5118f06ef676fe3dfc25ffa89c2be2ec
 

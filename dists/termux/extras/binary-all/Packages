@@ -142,6 +142,21 @@ SHA1: 30b4ed240810dd671b3ef1173a379261fb02d206
 SHA256: 8c5a3e0949f5a9854a83b930f3e68fe7c4d035a325248acae07da79f4cd825b7
 SHA512: 88cb554ae5564632a1c864db968072ecc09db96a3fba2e2a74049aee955363d63dc6ceeb0882688fb8b32e929999f8f79abcc06939deac8400311f80be3bbf3e
 
+Package: termux-apt-repo
+Architecture: all
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.4-1
+Homepage: https://github.com/termux/termux-apt-repo
+Depends: binutils, python, tar
+Description: Script to create Termux apt repositories
+Filename: dists/termux/extras/binary-all/termux-apt-repo_0.4-1_all.deb
+Size: 3646
+MD5Sum: 9a5d9da61250eb65921b7fe0bd1597cd
+SHA1: 5d11ec14f0a289b98a0c653b86b5513b5afd5d5f
+SHA256: 98f9e79e44e2c706ee6a400482dd380820f234a049db4b6c2a3fd9a99a5b93f5
+SHA512: 7a6bc8b2427a6b61b8849de997155ea894d7d8b91c766dd73d390dde46f2b2088ef6d67ca16a0690cf215e130518575ae41fef2bf8281ac64a385bc57128391c
+
 Package: ttf-dejavu
 Architecture: all
 Installed-Size: 10096
@@ -155,6 +170,20 @@ MD5Sum: 8376149ccd4315305f60d517ac615868
 SHA1: 68f1ee5f620822e038fdf0d193db1f58d0db6af6
 SHA256: 13cbbb961fb0f175adeb484c858a6718849bfdcc1f1cb3ee964712c5d31734fe
 SHA512: 93af6a7aa115ec1518149526847d2922b57745aa76f04774cfef49ebb225f9f6c5cccf4bc2254dd5d34d9183c724c925049ceaafb8eb40efe9eefebb84a035a2
+
+Package: vim-runtime
+Architecture: all
+Installed-Size: 22352
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.2200-1
+Homepage: https://www.vim.org
+Description: Vi IMproved - Runtime files
+Filename: dists/termux/extras/binary-all/vim-runtime_8.1.2200-1_all.deb
+Size: 4077998
+MD5Sum: 3488ec29b992909e879e38f9c4f3d9ad
+SHA1: bc4fe3395b5891120799d360bfb9fcb64b2a8031
+SHA256: 949e35c3ea7582457109e96997179efe2cfbab11886bb88fe1f0215781ad66ab
+SHA512: eadb22b2aaa72ab69ab766edd3810b9b8a0ab40829616c552cf3afceb4507fc079cb068214c7effc62ed0c4b1007a5f9431336b193d06dfa2f995635c43dfb87
 
 Package: xbitmaps
 Architecture: all

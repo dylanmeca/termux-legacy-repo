@@ -43,6 +43,23 @@ SHA1: 0fac325579568a469eed9c4a0dfd2ad6906d36be
 SHA256: bd53415a74f26fb2332a5fadaa427c097ed8dd54b772c6ccac2cbbc7ee32e826
 SHA512: e6206807e39810608018cf8c49666c03730da42bce4f3059ee1f80aeb0224f7bd30958b0b921922284ba058e02bd668de4ef63d449b50062ddd8814e2df95e75
 
+Package: binutils
+Architecture: aarch64
+Installed-Size: 16076
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.33.1-1
+Homepage: https://www.gnu.org/software/binutils/
+Breaks: binutils-dev
+Depends: libc++, zlib
+Replaces: binutils-dev
+Description: Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
+Filename: dists/termux/extras/binary-aarch64/binutils_2.33.1-1_aarch64.deb
+Size: 2251776
+MD5Sum: 56994663672f9c42e659d03ca76906b3
+SHA1: 24df36c5eb3f605baba2189d91d12d7751100195
+SHA256: 04f1e718d499968dcfb0c32d6367e1362e28e52bf8d6a69d45ce4897fde89274
+SHA512: 342d4f9bb7752dbd042c2c91f5a4ab2cb56951145ec8ced4716478219d809630e7744ad1d4bd7a36b83d803de9d9bcf891de29d2fd0cfda88288f18f065f3064
+
 Package: brogue
 Architecture: aarch64
 Installed-Size: 928
@@ -227,6 +244,37 @@ SHA1: c7e270816777918819921bc6074c2a88d44c3696
 SHA256: d5dc95dd13faa768aeefb5c4afd630edc5c2d5f9e540fbf7734505a402af4f77
 SHA512: a92a346ea24f274debdc3b53372c89d13c08abb5dee747d17c8ff7d421f7fc84937ac7558bd6a5e6306d42172b9a7e2a48c5a085addc390ce2adda770fcb09c9
 
+Package: gdbm
+Architecture: aarch64
+Installed-Size: 444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.1-3
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Breaks: gdbm-dev
+Replaces: gdbm-dev
+Description: Library of database functions that use extensible hashing
+Filename: dists/termux/extras/binary-aarch64/gdbm_1.18.1-3_aarch64.deb
+Size: 101710
+MD5Sum: 1cdebf883b8175a150729c705778bacd
+SHA1: 8f6b91882d67682fd2b945b9e2410ba14fa9a376
+SHA256: 12a1acc9a2375981525a509aedf6d7b74381a266d28243403a964af108d79717
+SHA512: 3a127a29285c2de09794e9fe07f0c1762b720bde16f31d7e64bc16b5ae680d6b523f0291d3dff11605102c1c3b6b8b3648c8fe95c3a1267715eea576a7a27e81
+
+Package: git
+Architecture: aarch64
+Installed-Size: 18376
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.23.0-1
+Homepage: https://git-scm.com/
+Depends: libcurl, libiconv, less, openssl, pcre2, zlib
+Description: Fast, scalable, distributed revision control system
+Filename: dists/termux/extras/binary-aarch64/git_2.23.0-1_aarch64.deb
+Size: 3167032
+MD5Sum: ffdb33ec497c837e136e0026add1e99e
+SHA1: 432e4310012f2917653620728d1aba9fb355ca9b
+SHA256: b48250f2c2f0a4a213faa4add3c26a52cfa7d932696d610bf5d8482b64656bd1
+SHA512: bd1f876214d52aaef4dccc3c69a7f2ff6f4e6f397d44f4aca3a62c24f0d3022fa22cc2ee8be395a4eba0f4f1abef0b7b1fa30c518e2bdbc12ffd6cf23a0e36d2
+
 Package: glulxe
 Architecture: aarch64
 Installed-Size: 300
@@ -274,6 +322,23 @@ SHA1: 350330485aa8531dbe9606d98fdbfaa704856ce4
 SHA256: 07d9029213463e165e5fcd15977f26a04e1a6f7f41530796695663bf47595708
 SHA512: 4e4cf7507d41d4478182e8c19fc7c99c20fa0ec96bae4f5040f7da6bd7ce9697fec6bcd2d94797d4bcedef17458a334a9807c60d096f07df0f9d4c104fe813c2
 
+Package: gnupg
+Architecture: aarch64
+Installed-Size: 4376
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.17-2
+Homepage: https://www.gnupg.org/
+Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth, libsqlite, readline, pinentry, resolv-conf, zlib
+Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Filename: dists/termux/extras/binary-aarch64/gnupg_2.2.17-2_aarch64.deb
+Size: 1103294
+MD5Sum: b1dde185ccceb787873dda0255f4a93e
+SHA1: d4f35bd48ce2e74630cb685d3f4a752398fb8cb4
+SHA256: 6da15189390766c8eeb55104d746e8cf9f768a8235e00b0c19039d831ca20fbb
+SHA512: 6712e5f2a32a29fce48024267c6b3686df39d86562dd24d03ef9cd987ae8c72dd5a8e6c614bba7948401b80bd8c8ccb9da3715187a4a24ab1873925bfa18a4ab
+
 Package: gnushogi
 Architecture: aarch64
 Installed-Size: 180
@@ -288,6 +353,22 @@ MD5Sum: 268dd5094bd5e00cc29a5543e4fea2ab
 SHA1: cef922e49e580a531c93f4afea11059361eb7fbc
 SHA256: 13bb8eb8dae330df2f8b111f355b4e2fa54a7c472a50ce96ecd9966da10508df
 SHA512: 49f05798b7d0df66f4cee4b9795573b0d224084f80184c2c0cfff3353e357d7efd0973c0801240091ef5e321c56615d997227ac80501262ac1f4676e2f5b06ca
+
+Package: libffi
+Architecture: aarch64
+Installed-Size: 148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2.1-5
+Homepage: https://sourceware.org/libffi/
+Breaks: libffi-dev
+Replaces: libffi-dev
+Description: Library providing a portable, high level programming interface to various calling conventions
+Filename: dists/termux/extras/binary-aarch64/libffi_3.2.1-5_aarch64.deb
+Size: 20344
+MD5Sum: 55d39b8ef1b722948c708483492d99cd
+SHA1: ab24fbcbe17fb357a44bbc4eb8bca95cee5d70b2
+SHA256: 33cde6e558860ed197f9df0dbe691c50680277b0cc7b3519b4730bcbeca45497
+SHA512: 151f35fd0c629867ce733622bb6499714fba374416bc47f0e4c0378bafb0d21df7b3eec526cd8ad5180534829b04985555f042a843f2654e5d6bb8c1759a4000
 
 Package: libgeos-static
 Architecture: aarch64
@@ -321,6 +402,23 @@ SHA1: 10ae7285abdd14dc135cec6b53389d11d4f36298
 SHA256: 4ebfbcf92b07c5d34e85a14974210772b2b8af2003fa055da4fcab407e2e4c1f
 SHA512: f295df45148f8cf3106e51a6d5989d498a4adc0f13d6da182483799b6e8f053f7ec7892e85905f0c4bb9799629a2a7791cbbc799ff51de899bf22167ac0a245a
 
+Package: libgit2
+Architecture: aarch64
+Installed-Size: 1660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.28.3-1
+Homepage: https://libgit2.github.com/
+Breaks: libgit2-dev
+Depends: libcurl, openssl, libssh2, zlib
+Replaces: libgit2-dev
+Description: C library implementing Git core methods
+Filename: dists/termux/extras/binary-aarch64/libgit2_0.28.3-1_aarch64.deb
+Size: 413406
+MD5Sum: 2f84e34ff332efcc5df543c494ccb56b
+SHA1: 481b549590135990ceef66f25b9c858234270907
+SHA256: 433821686f820b9fe8e6c246b9c73505f74d87a1c7145cf715e08babfef6dea8
+SHA512: d32b0f1cef8322d1c4073cd67085ddd42d28c5780ba9939ef8369b2f2be92a59fce5990fd53bf97599bc0e73501f41adef4b922afb503642aff67f2d1184d14f
+
 Package: libhdf5-static
 Architecture: aarch64
 Installed-Size: 11060
@@ -353,6 +451,72 @@ SHA1: 2b083798762d0329fcbfdce61ef6fd2f0e5f861b
 SHA256: c7ec81c9a8a86466304e421d1e2c46203b0a8fdba295635f3f1f9650cc1c30b0
 SHA512: dc835e4ed0aa49ca76b077b77682887c3bcd1868da110b3ff58a7e0b9353aa8755bffe41385fafbd4ec177bd02638451803e132d08cd3e12df4aa253c244e094
 
+Package: libsqlite
+Architecture: aarch64
+Installed-Size: 1588
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.30.1-1
+Homepage: https://www.sqlite.org
+Breaks: libsqlite-dev
+Depends: zlib
+Replaces: libsqlite-dev
+Description: Library implementing a self-contained and transactional SQL database engine
+Filename: dists/termux/extras/binary-aarch64/libsqlite_3.30.1-1_aarch64.deb
+Size: 526252
+MD5Sum: d35017aa0b9654dc982402952140a8d6
+SHA1: c88de9b1e05636d1d9c5032d38d8a866fdbdde29
+SHA256: 966cac84a0d6f9c018bc4b0a32d91aa6f62179769ef8e7954fe8c6a23266df8b
+SHA512: bea71681f48d02cddda6358d652d0067f08afd2de2680b68c98598c080cfc66c80e14c70f47eb4ffd336309f6d7cb9e4f3811f10b5b78e022760c2effccf4e0a
+
+Package: libtalloc
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.1.14-4
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Breaks: libtalloc-dev
+Replaces: libtalloc-dev
+Description: Hierarchical, reference counted memory pool system with destructors
+Filename: dists/termux/extras/binary-aarch64/libtalloc_2.1.14-4_aarch64.deb
+Size: 31058
+MD5Sum: 4872f31e886fc68fce821d68c7fc92ca
+SHA1: 03f16787d835ce00d8b6465b5530eed77984eb64
+SHA256: 4c8fb63d1377a7b15a05540d06566507e266e8399c60a81415932989882be295
+SHA512: f830278a5e228a8479df0ab7e114d905556087b93062e6581d7d025721e4dc70fdb0cb560201ecb7b4242b64e02e9a3db522d87a09654720bf7b51002e9c7107
+
+Package: libunistring
+Architecture: aarch64
+Installed-Size: 2732
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.9.10-4
+Homepage: https://www.gnu.org/software/libunistring/
+Breaks: libunistring-dev
+Depends: libandroid-support, libiconv
+Replaces: libunistring-dev
+Description: Library providing functions for manipulating Unicode strings
+Filename: dists/termux/extras/binary-aarch64/libunistring_0.9.10-4_aarch64.deb
+Size: 476712
+MD5Sum: 98e8b763a18614feeeb118b040b8edbc
+SHA1: 7c97a0101b2dda19d329c6c4836ada413597e6d8
+SHA256: d054fc23bdd76e34b5003595439a3d76ef07b90a98f74cc3e9459d99ebf92b55
+SHA512: bdc00f47124abc7da738701a20c625f43abd921b21b489b505719ee2f0ae325be4b6c48d7bf06c599a1f4afc59958cce6ccde852db97273a34da53efc861e3a9
+
+Package: libuuid
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3-4
+Homepage: https://sourceforge.net/projects/libuuid/
+Breaks: libuuid-dev
+Replaces: libuuid-dev
+Description: Portable uuid C library
+Filename: dists/termux/extras/binary-aarch64/libuuid_1.0.3-4_aarch64.deb
+Size: 6468
+MD5Sum: eb57169557b9f9d80f583681a74eea26
+SHA1: 90b1cf88f96dc0496bf6056bdfac4fcc1134538c
+SHA256: 4e119c90b8859f7c7121dd6fe861248982025a77b3e7a1e95b6ca4bbe7601fbc
+SHA512: 1e7168ffe66f60c17de1e2a06f8ba1420cdf4567c7688a07201bed6928f3350e54f31be6256817d3e8a213e6f4683f0c3e92d98a6c3bb96a295ac721552d967f
+
 Package: mapserver
 Architecture: aarch64
 Installed-Size: 6620
@@ -384,6 +548,21 @@ MD5Sum: d14a7038f2f23c5ac2f206dee0a8830f
 SHA1: edaedc301682820152ffa1769159771e602d8c7a
 SHA256: 8f54decb3bf0b3ca4dd75362e3940a8d7c36de4811c165ba5237331b97146629
 SHA512: ee75f264e414c8b1ddaadc366dd48dedb80c298b30c9e34566335b69541b6318e1f09bef5bc9aaa149657d66885bdd2ad49903c268231076d1fce479ce042ee2
+
+Package: ncurses-ui-libs
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.20190511-8
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.1.20190511-8)
+Description: Libraries for terminal user interfaces based on ncurses
+Filename: dists/termux/extras/binary-aarch64/ncurses-ui-libs_6.1.20190511-8_aarch64.deb
+Size: 29556
+MD5Sum: 52e12a8ff212cf751f14668e10b1d927
+SHA1: c2c8c76bbe15ba19ec8d8b1264d7b4c5d3b65164
+SHA256: 0c1b8a886389d5dbd2b698a6bb0542a2f41e202a233dee704ebe8f137ab8852c
+SHA512: 951bca35ae2a6541019145cc851ca2695b1813218f3e1275f27225c5e8c98d5a14154e19ba4ceda1b7207cceb721267835699dc8379d82965cb478683600f0ae
 
 Package: netcdf-c-static
 Architecture: aarch64
@@ -586,6 +765,22 @@ SHA1: c7b3d19e77b0778434f43ebdc0129de9e598197e
 SHA256: 13898d39765293f70f6d2c86eb42cd6d20bc9d93f53b74dbbf3b3f898a4e62df
 SHA512: 30576c8a888d410718560b4d431c06d6080a90d4740813734cd2b62e4a1379bb60a10d003a3658d80ef7036e5f60a640acdb244446433318e3191541ca6c4262
 
+Package: pcre2
+Architecture: aarch64
+Installed-Size: 3660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 10.33-2
+Homepage: https://www.pcre.org
+Breaks: pcre2-dev
+Replaces: pcre2-dev
+Description: Perl 5 compatible regular expression library
+Filename: dists/termux/extras/binary-aarch64/pcre2_10.33-2_aarch64.deb
+Size: 785130
+MD5Sum: 9e859e1ff46edc293dbe04dea38bb518
+SHA1: 2b90fb96e9f8486aac165cae005fecdf11f733d8
+SHA256: cde2c0a633443eb7729a154cca8fe4ff479ebf9c233b662edad0db71dd7fab82
+SHA512: bfe1fa29ffa86e136784adb5f5449df7e3f3f023026bbbac43d4cef7583e18ffb77bb72c42dcb617f8fcf2f5934d6d7186e007da83338b16c58d8a2169fd8dc4
+
 Package: proj
 Architecture: aarch64
 Installed-Size: 8692
@@ -603,6 +798,53 @@ SHA1: fe9fa17ace3250b078ef2e2096ec3a1bbc97a171
 SHA256: 353857f161e3f07df5143248fbc7f9df5756ecd10335813ad128ff26cf6b5e62
 SHA512: c992fdcf5f212782b41f04271780d28786088f4a943edb2b4d131203600b5b10d38fb02612f49e5d6783891d540c7f36f3100dcf6e75981adfe7abe1c02cb910
 
+Package: proot
+Architecture: aarch64
+Installed-Size: 236
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.1.107-23
+Homepage: https://proot-me.github.io/
+Depends: libtalloc
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Filename: dists/termux/extras/binary-aarch64/proot_5.1.107-23_aarch64.deb
+Size: 64002
+MD5Sum: be80c4a500d02dd744e6e7edb72f3b83
+SHA1: 93c1065c7fcacdb606340bd501269680dab3146a
+SHA256: 90446aea42c9eda31132b0ae353dedef8cac355322c3de38688ae4e28d9e43e8
+SHA512: 04612428c959961b02be1486e25f6f798d17fa95393e62746310dd2b0aa195b21051b09ce647227c18bb1f39b3aea038c95c9e488dacf91615bf3bae991078b5
+
+Package: python-static
+Architecture: aarch64
+Installed-Size: 13872
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.8.0-1
+Homepage: https://python.org/
+Depends: python (= 3.8.0-1)
+Description: Static libraries for python
+Filename: dists/termux/extras/binary-aarch64/python-static_3.8.0-1_aarch64.deb
+Size: 2444814
+MD5Sum: 08eabc609a0e6400069bb29fe4537f22
+SHA1: c63a34639afc2b65ddbd1b18fcce645542c9ba4b
+SHA256: d9d7284e62063791d5ac13a70f072227a41ef9d9a69ae9e4e1fc6ae3964565f2
+SHA512: d53a9aa3317d14d98e249d19275efe4e7cc85db45ecbd3d4b81a0b18e414bfb579d8fc52679aec442ca8818580daf624496dc36b0cc903896a60907d3f1b7e03
+
+Package: python
+Architecture: aarch64
+Installed-Size: 46972
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.8.0-1
+Homepage: https://python.org/
+Breaks: python2 (<= 2.7.15), python-dev
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, liblzma, zlib
+Replaces: python-dev
+Description: Python 3 programming language intended to enable clear programs
+Filename: dists/termux/extras/binary-aarch64/python_3.8.0-1_aarch64.deb
+Size: 8079696
+MD5Sum: 584f53eeb35f2512c45a5d402573af6f
+SHA1: 93f06fb53d2e81e103c306fa4e07e032437daf9d
+SHA256: 4f77d601f780f53a2c0a12ccfde673c1c850991ed31993b5beab6506db283978
+SHA512: ad6b9f04367f56337a14b6d1ae16041821d4e3cf7d06ec0304c870804f20e28bb9e957522d8d7c5ff963b000dde8cfd6923c7f48b3defc7e662d6fb922a413d3
+
 Package: tty-solitaire
 Architecture: aarch64
 Installed-Size: 64
@@ -618,6 +860,23 @@ SHA1: 03e96ce9a381196a0a6c172d0a1b276f4a323eb3
 SHA256: 3902c6f07ab09b4984cb72b133b1107228c627055c7b0e1284ee68493d6d369f
 SHA512: 9f4a890b50da048cf9916295e79cbf23086369e7694d6083951eae907907b8e2a982264b45544dfd2952cad88a4bb94d9008d8a9ac16aef270c59021da28d08c
 
+Package: vim
+Architecture: aarch64
+Installed-Size: 2192
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.1.2200-1
+Homepage: https://www.vim.org
+Depends: libiconv, ncurses, vim-runtime
+Conflicts: vim-python
+Recommends: diffutils
+Description: Vi IMproved - enhanced vi editor
+Filename: dists/termux/extras/binary-aarch64/vim_8.1.2200-1_aarch64.deb
+Size: 875306
+MD5Sum: 926441010cca4ea76495bdad9e1da3b4
+SHA1: 0f79adc7ca6c7e721a99eefb29d173c99e9cf80c
+SHA256: fb409b2b79fb587a517b53359b93c9ba4fe576e1ae2527de1ff9b9dd810427c8
+SHA512: 6ec7d2c4e6531e2b0efd96184cf70eab10a4a95d8026e9693eaddef58589026989075da040a3883d7739296090e9872ee3fffd6b6953c9a611ac4f9785e10a1d
+
 Package: vitetris
 Architecture: aarch64
 Installed-Size: 160
@@ -632,4 +891,19 @@ MD5Sum: 3baceeb8b33fb14cdf34cf605edbcc36
 SHA1: ff6c27ca6ebc39aca349b1f369f648949140aac6
 SHA256: 1cfa6c073d4cb8c10256c1c2b8b89c1c05fe32c6acb029fd4b4096288db170cf
 SHA512: 37c116932a15e33ad42ecf283dab9b21104312799c6287e691dcc6544de0a9123cbec55fcab9bb1588e8c8d246cb014b860e760878a5e464d4142cbf61208324
+
+Package: wget
+Architecture: aarch64
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.20.3-3
+Homepage: https://www.gnu.org/software/wget/
+Depends: libiconv, pcre2, openssl, libuuid, libandroid-support, libunistring, zlib
+Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
+Filename: dists/termux/extras/binary-aarch64/wget_1.20.3-3_aarch64.deb
+Size: 262592
+MD5Sum: 59f50e15807e0e3cf4fe10288937ae12
+SHA1: a5dd31882c08741014ad51557057cde953c37093
+SHA256: d828f787f819df757cec890393c8c612ef1e72b735451f7171145dc508aaf023
+SHA512: 7844552875f02ab28ccc857f603cfdc4ac8a4316ff277dad8d2117b927a652a8ce8c35a33bcf63ee8b5091ceb88e5635d573d395b91277b6f09743abebcde195
 
