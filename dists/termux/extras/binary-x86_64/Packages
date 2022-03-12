@@ -354,6 +354,23 @@ SHA1: 7b7f7698f17e4702ce30d8e3f40c33eb27493760
 SHA256: 76ddddebdfa7e3f5a3bdcc3dc6aca684208e907da2606f485024b1e9273b1807
 SHA512: 0fdfe3ec1dd08a1e4a1b05a38341f9ef177e1317cf1090b5bb8d4f7918754fce0e263f48f95244d71ce330f21997d4be8af14801d890d77ae045f4d859375cb5
 
+Package: libassuan
+Architecture: x86_64
+Installed-Size: 332
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.5.3-2
+Homepage: https://www.gnupg.org/related_software/libassuan/
+Breaks: libassuan-dev
+Depends: libgpg-error
+Replaces: libassuan-dev
+Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
+Filename: dists/termux/extras/binary-x86_64/libassuan_2.5.3-2_x86_64.deb
+Size: 73948
+MD5Sum: e3421f1d02c4d76b5552312dfcb8dd3c
+SHA1: 7b06bf29405a822d93e0403ebcc5450145f20c84
+SHA256: 76aefa6121baba49915e6f03010ae42c3b7daab000785eda67841b3074372ae8
+SHA512: 859d049fcc7d5095350eba9bb9d927efb9a8de3db65a847f656b65270a27865163d5fe4c5abf2e5717f03789528922687bfd65613e87276d2817505537a52929
+
 Package: libffi
 Architecture: x86_64
 Installed-Size: 152
@@ -419,6 +436,23 @@ SHA1: d57922c16619b85684a8eb5b33288de1975cbf2b
 SHA256: 1e2b2802d4e4d049c3f171a5b12a8760f48b13cf4c5c7ec157ae8a27a2967873
 SHA512: 311841bbce28632a51be34cb765400e03c29ddf8cc0bd044242246d375a293595fd4de529c24c28d63cf97ef600053f744a446c9213bf8cea5ba3ae1f16a52bb
 
+Package: libgnutls
+Architecture: x86_64
+Installed-Size: 9048
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.6.9-2
+Homepage: https://www.gnutls.org/
+Breaks: libgnutls-dev
+Depends: libgmp, libnettle, ca-certificates, libidn2, libunistring
+Replaces: libgnutls-dev
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+Filename: dists/termux/extras/binary-x86_64/libgnutls_3.6.9-2_x86_64.deb
+Size: 1979234
+MD5Sum: 3104166ad239f392f271f9c5441bb559
+SHA1: 24d27843512ee46b6157dce8b41b0c831872d321
+SHA256: 3c56db9340e188ac1eabc4903cd332c7e3f10d05783585e4b5ac787a7ce47e97
+SHA512: f82e3a27f1569aa7da218e6e3cb92125d44eae9b853a7468f8df2cbc87262972a61c65aa9f66cd89de2f67eb63ca99f4c53ac5cfe806a1dc06d89282fc43c8bd
+
 Package: libhdf5-static
 Architecture: x86_64
 Installed-Size: 9296
@@ -450,6 +484,39 @@ MD5Sum: 6a91f58c20ab3e3e4daaa3f2b21909cb
 SHA1: 6a2c404f3db7c475feefd6389df009fc7efb8933
 SHA256: c5ec45bc215096e6bd091aff4b230dc7d56bf61f966d143b3c12d00692f422a0
 SHA512: 2624613f47d2b6635ee403a323a5f09d66bf499746f166b65cd28a558816b10c2f01a829c46ca3e47ae79786deb6bd9068ac6b60e61c7979b52b8f1e94573739
+
+Package: libksba
+Architecture: x86_64
+Installed-Size: 380
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.3.5-3
+Homepage: https://gnupg.org/related_software/libksba/
+Breaks: libksba-dev
+Depends: libgpg-error
+Replaces: libksba-dev
+Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
+Filename: dists/termux/extras/binary-x86_64/libksba_1.3.5-3_x86_64.deb
+Size: 103408
+MD5Sum: 37ca5058098aea6e7d61fe146153b9d9
+SHA1: 5d67c867f34fafaac6cc9de086a5093bca5198cc
+SHA256: 774baf0df14429e8ebb2008bc41cddcce814582eb8b7e2c4641a4f1109a5018d
+SHA512: 49372beaae7eb65c34697ee42b7b824b920cef9533772671e39cbd3990f46387a70a0281f6b194e39b99e509315aef6d37ed9e7956a8a197582cf131ac7c2aa2
+
+Package: libnpth
+Architecture: x86_64
+Installed-Size: 92
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.6-2
+Homepage: https://www.gnupg.org/related_software/npth/
+Breaks: libnpth-dev
+Replaces: libnpth-dev
+Description: New GNU Portable Threads Library
+Filename: dists/termux/extras/binary-x86_64/libnpth_1.6-2_x86_64.deb
+Size: 11360
+MD5Sum: 936452b31e14d311361b863f5bdc0afe
+SHA1: f8d3afeb273ecb79da644936324de4f50373f658
+SHA256: 4cb5645a59ff7f9937487029f9c7ce9b81fb9214fd729c2d9a50b57b0bff1d84
+SHA512: 11bb62ceec22dc7039a340367df640c822d6229f533f656dcb104d4e0d0f9cabad8c5ffae3aeaabb450e55b799a6dcd150f3d520bdada8f5562edff31ecbeaa9
 
 Package: libsqlite
 Architecture: x86_64
@@ -796,6 +863,21 @@ SHA1: e3cc4222b413fc1af8d99b214728229832e41c67
 SHA256: 74700d466f8d650519b5f9f54b876e666a3a264aea3db3205eca0bfa580f24bd
 SHA512: 1933b8696207111d2386e27569b40a7e118054f52e54606e20dc77c4cfca4c364c37a9d2299ffcce66e13564151d1f39df52dd4e1aa2de98f584087de7e5c2c2
 
+Package: pinentry
+Architecture: x86_64
+Installed-Size: 148
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.1.0-5
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Depends: libandroid-support, libassuan, libiconv, ncurses
+Description: Dialog allowing secure password entry
+Filename: dists/termux/extras/binary-x86_64/pinentry_1.1.0-5_x86_64.deb
+Size: 38734
+MD5Sum: 3a6900c733ed59027d19d1b2753ed412
+SHA1: c3f9fc652d58c6f3bf50bc051a1769d7055e8eda
+SHA256: 11ab02f1b9e4b22ef4c29951a0751de07e191031f7172d6d903e80276a482ee5
+SHA512: c2396d5d9c4a79682d357a21942d280008300349e7162e7f6ef7e0c3422eab8aeeee977c870d76a9c73c295b44ab9058d0cdbf31c7088c82e3f8bee85b134fd8
+
 Package: proj
 Architecture: x86_64
 Installed-Size: 8812
@@ -859,6 +941,20 @@ MD5Sum: 09ed1d9a06912b39debb56ccd2ee3789
 SHA1: fb65790cb0afe86719dace4c147a44c099bed470
 SHA256: ecbc3048fcdf3dc24bf18c6ab3383aafe770060d11078e4948d124a9b54a5ceb
 SHA512: 18ca5a3ba7bd1ddfe1f0966781cf599b86c1986a216bb57d28580353233893d6d0dbd98b30c153bb6e9a2ed9652be1d0580544966ce36334c6960e7fdd41e059
+
+Package: resolv-conf
+Architecture: x86_64
+Installed-Size: 44
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.2-1
+Homepage: http://man7.org/linux/man-pages/man5/resolv.conf.5.html
+Description: Resolver configuration file
+Filename: dists/termux/extras/binary-x86_64/resolv-conf_1.2-1_x86_64.deb
+Size: 934
+MD5Sum: 83ce996b993355cf3e718f50246da48f
+SHA1: 475406e94700c937667a1309ee0c8c5d73a7b7f7
+SHA256: 01b8350e8ebd1bb82dff6431aefb9368a04d9f4fa51a311e73dbdb6af3bb95ca
+SHA512: 1eef9c402deca67bfe49fb231c579bc1de08c2c6466b6ae1adf864ea11100965fd1345996e4f7031eca2ea8fd63cd2bd2519336f6a773fef44cdd13faba0a8e9
 
 Package: tty-solitaire
 Architecture: x86_64
