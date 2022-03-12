@@ -485,6 +485,23 @@ SHA1: 6a2c404f3db7c475feefd6389df009fc7efb8933
 SHA256: c5ec45bc215096e6bd091aff4b230dc7d56bf61f966d143b3c12d00692f422a0
 SHA512: 2624613f47d2b6635ee403a323a5f09d66bf499746f166b65cd28a558816b10c2f01a829c46ca3e47ae79786deb6bd9068ac6b60e61c7979b52b8f1e94573739
 
+Package: libidn2
+Architecture: x86_64
+Installed-Size: 384
+Maintainer: lokesh @hax4us
+Version: 2.2.0-2
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Breaks: libidn2-dev
+Depends: libunistring, libandroid-support
+Replaces: libidn2-dev
+Description: Free software implementation of IDNA2008, Punycode and TR46
+Filename: dists/termux/extras/binary-x86_64/libidn2_2.2.0-2_x86_64.deb
+Size: 84208
+MD5Sum: c7852b5b2adf2fcb9a2d90d6925a9256
+SHA1: 8d33c8cdf520413139c59ed8ab90a953c9b39130
+SHA256: d1102f8aee3e7568231cff0c3d924caef45759a2f28706041a4a843b45c364dc
+SHA512: 7961e4972e5daaf04960604ca79d59442d630d418ce15de2245b0055de4a1f70ceb3af01da9dec8add6a25656ba2913f9a33404bdd7876eec56fa04394b0f4cd
+
 Package: libksba
 Architecture: x86_64
 Installed-Size: 380
@@ -501,6 +518,23 @@ MD5Sum: 37ca5058098aea6e7d61fe146153b9d9
 SHA1: 5d67c867f34fafaac6cc9de086a5093bca5198cc
 SHA256: 774baf0df14429e8ebb2008bc41cddcce814582eb8b7e2c4641a4f1109a5018d
 SHA512: 49372beaae7eb65c34697ee42b7b824b920cef9533772671e39cbd3990f46387a70a0281f6b194e39b99e509315aef6d37ed9e7956a8a197582cf131ac7c2aa2
+
+Package: libnettle
+Architecture: x86_64
+Installed-Size: 1140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.1-3
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Breaks: libnettle-dev
+Depends: libgmp
+Replaces: libnettle-dev
+Description: Cryptographic library that is designed to fit easily in more or less any context
+Filename: dists/termux/extras/binary-x86_64/libnettle_3.5.1-3_x86_64.deb
+Size: 298406
+MD5Sum: 7483971b18593c563e4c92abc5972900
+SHA1: 0d48e06dab4465a7f817ce08d65eb9f14ec869ce
+SHA256: c0acff3938443afcd4b083da7b53caf4bae11b084cc9204f11ec68d57e39459a
+SHA512: 46ea19e997b0c559252d4b670e3ae48e0f6b5da07c1fddaaf31662f0c74b8bde73c5ffd37dd1b9110580445178579219fbcc568a82838baab08cad7a59ef17c6
 
 Package: libnpth
 Architecture: x86_64

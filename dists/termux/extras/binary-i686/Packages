@@ -470,6 +470,23 @@ SHA1: e3f9b292ce1ddf8a6a828b933a0b8c2674ac4c74
 SHA256: 4d5bd3e0aa51cf93cd3eb67637ff5ca246ff2d0e692dbf2c241b9bbe9cd8c14a
 SHA512: fd04b670b6b5a7d43eeb89580168c88ff0bae533fb54d88aeca7db7b38b653ae8f186513d15a6a9c0af69b6165778085ed86578d0b2101dd7f6f6043f5a77f03
 
+Package: libidn2
+Architecture: i686
+Installed-Size: 376
+Maintainer: lokesh @hax4us
+Version: 2.2.0-2
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Breaks: libidn2-dev
+Depends: libunistring, libandroid-support
+Replaces: libidn2-dev
+Description: Free software implementation of IDNA2008, Punycode and TR46
+Filename: dists/termux/extras/binary-i686/libidn2_2.2.0-2_i686.deb
+Size: 82188
+MD5Sum: 2d5317bf83222b7c481b98b4c7adc000
+SHA1: 0f863f7bc1d552cbb4b8236eb48336dfb9c39127
+SHA256: c9dc2f6e73b30455aa08401473c24d244d13231eee2befd50c2243e7c2f543bc
+SHA512: b94ae3e719e5473c7aed29ce710ab7334d9a6fa8dde216b40fa195035fdd9ad39c41cdcf80a6babe1939a7feb0ba68ee1ecf762d93d8ae51da6c2466ee2313af
+
 Package: libksba
 Architecture: i686
 Installed-Size: 356
@@ -486,6 +503,23 @@ MD5Sum: 682f356b782bfc428ef3f8fb58b3ec1f
 SHA1: 5925a5348a6f5983089dde0e138b385c978b9122
 SHA256: 2df05cbaffc9387872affe9509d19a79f53cad9875f6876e09fb2298476ca730
 SHA512: 78ee17a2b5bee7c8f9c45202072643b884f9baf761b57cb5256b9e6d8ad86b12fabd04ed0195415fbc03b0110991cf1e2b6a28e3e3b506e57734082af1388d89
+
+Package: libnettle
+Architecture: i686
+Installed-Size: 1092
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.1-3
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Breaks: libnettle-dev
+Depends: libgmp
+Replaces: libnettle-dev
+Description: Cryptographic library that is designed to fit easily in more or less any context
+Filename: dists/termux/extras/binary-i686/libnettle_3.5.1-3_i686.deb
+Size: 295548
+MD5Sum: 45e44c5744e06135ddc91ec241264cee
+SHA1: 0b48660fa18c2720ed3ac8b93972b0b4dc2d2375
+SHA256: b7f0f5f295b9a606a3237ef846664fcfebd066c430bd0d0e93368aee23ada6b8
+SHA512: 7dffaaae6374fe6fa0e22ad11545c49fdbffdaf73867761b4048f140649144a395fdb08baced079d2081e3cda919e0ebe042fd6b9f1f4da0218b25b975d0af5a
 
 Package: libnpth
 Architecture: i686

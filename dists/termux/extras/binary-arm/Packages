@@ -1441,6 +1441,23 @@ SHA1: 6effb0c6ca2133e1c7fd80099a1a3c16d72014c2
 SHA256: 4acd1560e2b3a871e4f86bc0398da0d614e6ed5eee1720fcc96747f8e3ae1480
 SHA512: cca210b46676ac08859ca3ee55a5d0fa866fc7b7f84179add4fb18f2461d59a6bee475bec30876a27b60ae65c027d46ad293b5a149d5ecd013934269cfb1ce64
 
+Package: libidn2
+Architecture: arm
+Installed-Size: 372
+Maintainer: lokesh @hax4us
+Version: 2.2.0-2
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Breaks: libidn2-dev
+Depends: libunistring, libandroid-support
+Replaces: libidn2-dev
+Description: Free software implementation of IDNA2008, Punycode and TR46
+Filename: dists/termux/extras/binary-arm/libidn2_2.2.0-2_arm.deb
+Size: 83600
+MD5Sum: a3e59321249d3433e35fbce4061e0c78
+SHA1: 7ce0d77afc1c8be7d34657e9ea4b78d3303e9d62
+SHA256: dc94079dc6c2e343a0fdb39b02d95b508ede5fa34e76139fa0084823a1cdd00f
+SHA512: 4106b5f3fd691ffbd7936722b78e76c95adc89f2043316dfc81c0fc22d2c72c3ab3139307b42b9df38d7fa35c262757981690efa1fec17355bdd30859d8abd8b
+
 Package: libksba
 Architecture: arm
 Installed-Size: 316
@@ -1457,6 +1474,23 @@ MD5Sum: 5771450cec102520b39a1ceddc180d69
 SHA1: 792ff92d4706562c93d34c32fb205fbceafaf554
 SHA256: 032f6c53a0ca556d419f5963232eb3b044edb48cf0ec1e6eed53dfa47d7b08e9
 SHA512: 432f0557851dbf5acd50d50af0520371a74ef5fe40842005881da3dedcb8fbfc6a2f471320ababb29824d84ff3b4f9bc83fa81fb8b92bced868b4fc95dac7ee2
+
+Package: libnettle
+Architecture: arm
+Installed-Size: 1052
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.5.1-3
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Breaks: libnettle-dev
+Depends: libgmp
+Replaces: libnettle-dev
+Description: Cryptographic library that is designed to fit easily in more or less any context
+Filename: dists/termux/extras/binary-arm/libnettle_3.5.1-3_arm.deb
+Size: 298238
+MD5Sum: c1260819a9992b3b69e996e352a071bb
+SHA1: 58dfeecc46cfa74a7ff4930d0ded5fd30ca9ad9c
+SHA256: c98703e19cbf7c231900a5ff00f40e3916161156d5e21162ca34c79f093819b2
+SHA512: 9f8e2ccdf2f5076fbd4b1288029bf95b4fe8cf11c2b17f2694595967f499ada30867c4e9193624e1116d646ad85f6e3aea8a69396f6696d8d052af4366ba6305
 
 Package: libnotify
 Architecture: arm
